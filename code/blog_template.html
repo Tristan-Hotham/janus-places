@@ -1,0 +1,126 @@
+<!-- wp:paragraph -->
+<p><em>An MP speaks in two places: the House of Commons and their own Facebook page. I counted how often each one named the towns and villages in their own seat in both. On Facebook it was {{x.fb_per100|f0}} times per 100 posts. In the Commons it was {{x.cm_per100|f0}} times per 100 contributions.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/janus-places/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.24105795">Read the paper</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Every MP has two jobs. One is the place: the towns, villages and estates that elected them. The other is Westminster: laws, debates, questions to ministers, and for some, a job in government or opposition. Political scientists have a lovely phrase for how representatives handle this. Richard Fenno called it "home style": the face a member shows at home is not quite the face they show in the capital.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For my PhD I looked at how British parties used Facebook, and I described their campaigns as Janus-faced: different pages, different approaches, different faces of the same party. This time I wanted to look at single MPs, and at something very concrete. How often do they actually say the names of the places they represent, on their Facebook page and in the House of Commons?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Four times as local</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I matched {{sample.matched|int}} Facebook pages from a list I built during my PhD to the MPs who ran them. For each MP I wrote down a list of places in their seat before looking at any Commons data: the towns in the seat's name, its eight biggest other places, and a random sample of the rest. Then I counted how often their posts named each place, and asked the UK Parliament's Hansard search how often their spoken contributions in the chamber did.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The difference is big. For every 100 Facebook posts, MPs named a place in their own seat {{x.fb_per100|f0}} times. For every 100 things they said in the Commons, {{x.cm_per100|f0}} times. Comparing each MP with themselves in the same months, Facebook comes out {{H1.rr|f1}} times as local. Of the {{mp.n|int}} MPs with at least 20 posts and 20 contributions, {{mp.fb_higher|int}} named their patch more often on Facebook.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_scatter.png|Scatter chart of {{mp.n|int}} MPs with the Commons rate across and the Facebook rate up; nearly every dot sits well above the dashed line of equal rates|Each dot is an MP: own-seat place mentions per 100 Facebook posts against per 100 spoken Commons contributions, February 2017 to October 2020.}}
+
+<!-- wp:paragraph -->
+<p>One thing to know about the data. CrowdTangle, the tool I used to collect the posts, stops an export at 300,000 rows, and this export stopped there. So the posts begin on 11 February 2017 rather than in 2010, and everything here covers February 2017 to October 2020. That still takes in two general elections, the Brexit votes of 2019 and the first months of COVID. Month after month, the two lines never cross.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_monthly.png|Line chart by month, 2017 to 2020: Facebook between about {{monthly.fb_min|f0}} and {{monthly.fb_max|f0}} mentions per 100 posts, the Commons between about {{monthly.cm_min|f0}} and {{monthly.cm_max|f0}} per 100 contributions|All MPs together, month by month. Parliament does not sit during election campaigns or most of August, so those months are left out.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Louder, not different</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>My guess was that Facebook would reach further down the map, to the small villages that never come up in a debate. It doesn't. In both places, bigger towns get named much more often than small ones, and the slope is almost exactly the same. Facebook names places of every size about four times as often: between {{x.size_ratio_min|f1}} and {{x.size_ratio_max|f1}} times, depending on the size band. It is the same map, just louder.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_size.png|Bar chart by size of place: mentions rise steeply with population in both venues, with Facebook higher in every band|Mentions of one place per 1,000 posts or contributions, by the population of the place. The scale is logarithmic.}}
+
+<!-- wp:paragraph -->
+<p>I built in a check. Each MP's list also included two places in someone else's seat. If Facebook just named more places of every kind, those would show the same gap. They don't. They turn up about twice in every 10,000 items in both venues, a ratio of {{placebo.rr|f2}}. The gap belongs to the MP's own patch.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:pullquote -->
+<figure class="wp-block-pullquote"><blockquote><p>In the months an MP is on the front bench, their Commons contributions name home far less often. Their Facebook page names it as often as before.</p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The job changes one face</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A third pattern is about jobs. In the months an MP was a minister, a shadow minister or a party leader, their Commons contributions named their own seat's places {{x.front_cm_drop_pc|f0}}% less often than that same MP did in other months. Their Facebook rate didn't change (a ratio of {{H4.front_facebook.rr|f2}}). One reading: a minister answering questions on a whole portfolio has less reason to mention their home town, while their page is still written for the people who live there. The data show the pattern, not the reason.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_who.png|Dot and whisker chart: frontbench months cut the Commons rate to about a quarter and leave Facebook unchanged; COVID months lower the Facebook rate|Each row compares MPs with themselves in other months, with 95% intervals.}}
+
+<!-- wp:paragraph -->
+<p>Two results surprised me. I expected MPs in marginal seats, with the most to lose, to lean hardest on the local face. In fact their gap was {{x.marginal_pc|f0}}% smaller: if anything they were more local in the chamber. And when COVID arrived in spring 2020, Facebook pages named local places {{x.covid_fb_drop_pc|f0}}% less often for a few months, before bouncing back over the summer. The Brexit votes of 2019 made no clear difference in either place.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The map shows each seat with an MP in my list, coloured by how much more local their Facebook page was than their Commons voice. Almost everywhere is some shade of red: in {{map.pos|int}} of the {{map.n|int}} seats, Facebook was the more local face. Tap any seat on the interactive version to see which places the MP named, and how often, in each venue.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_map.png|Map of UK constituencies, most coloured red where the MP named their places more often on Facebook, a few blue, and the rest pale where the MP had no page in the list|Each seat with a matched MP, coloured by Facebook minus Commons mentions per 100 items.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How I did this</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The pages come from a CrowdTangle list of MPs' pages that I built for my PhD and exported in 2020. I chose which pages to follow, so it is not every MP, and it leans towards MPs who used Facebook a lot: {{map.n|int}} of the 650 seats have a matched MP. A post counts only if the MP held the seat on the day it was posted, and I used only whether the post's own text named each place. No post text, links or addresses are stored or shared, only counts per MP, month and place. The Commons side is the number of each MP's spoken contributions per month that contain the place name, from Hansard's search. The places come from Wikidata, an earlier study of mine and the seat's own name. Names that are also ordinary words or belong to a bigger place elsewhere, like Bath, Sale or Newport, were searched as "in Bath" and so on in both places. I wrote the analysis plan before any Commons data arrived, and I checked the result {{robust_range.n|int}} other ways: it stayed between {{robust_range.min|f1}} and {{robust_range.max|f1}} times every time.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_robust.png|Forest plot of {{robust_range.n|int}} checks, all between {{robust_range.min|f1}} and {{robust_range.max|f1}}, with the placebo at about 1|The Facebook to Commons ratio under every check, with the placebo at the bottom.}}
+
+<!-- wp:paragraph -->
+<p>What this can't tell you: it counts names, not meaning, so a post that praises a town and one that complains about its bus service count the same. A post and a Commons contribution are different kinds of thing, and this compares them item by item, not word by word. And it shows where MPs name their places, not why.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/janus-places/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.24105795">Read the paper</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/Tristan-Hotham/janus-places">Data and code</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Notes and sources</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Facebook: the author's CrowdTangle list of UK MPs' pages (CrowdTangle, Meta), exported October 2020. Only aggregate counts are published.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Hansard, House of Commons, monthly counts by member and phrase from the UK Parliament Hansard API. Contains Parliamentary information licensed under the Open Parliament Licence v3.0. MPs, seats and posts from mySociety's parlparse records.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Places from Wikidata (CC0) and <a href="https://maps.tristanhotham.com/hansard-places/">Mentioned in the House</a> (Hotham 2026); election majorities from <a href="https://maps.tristanhotham.com/elections-since-1832/">Who Won Here?</a> (Hotham 2026). Base map: OpenFreeMap, OpenStreetMap contributors (ODbL).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Further reading: R. Fenno, Home Style: House Members in Their Districts (1978); P. Norton and D. Wood, Back from Westminster (1993); J. Grimmer, Representational Style in Congress (2013).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->

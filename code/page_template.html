@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Two faces of the constituency | What MPs name on Facebook and in the Commons</title>
+<meta name="description" content="For the same MPs, months and places, how often do Facebook posts and Commons speeches name the towns and villages in the MP's own seat? {{sample.spells|int}} MP-seat spells, February 2017 to October 2020.">
+<meta property="og:title" content="Two faces of the constituency">
+<meta property="og:description" content="MPs named their own seat's places {{x.fb_per100|f0}} times per 100 Facebook posts and {{x.cm_per100|f0}} times per 100 Commons contributions.">
+<meta property="og:image" content="https://maps.tristanhotham.com/janus-places/header.png">
+<meta property="og:url" content="https://maps.tristanhotham.com/janus-places/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+{{CSS}}
+</style></head>
+<body>
+<div class="topbar">
+  <a class="tb-name" href="#mapWrap">Two faces of the constituency</a>
+  <span class="tb-k">Data study · 2026</span>
+  <nav class="tb-links"><a href="#essay">About</a><button class="theme" id="theme" aria-label="Toggle dark mode">◐</button><a href="https://doi.org/10.5281/zenodo.24105795">Paper</a><a class="x" href="{{REPO}}">Data and code</a></nav>
+</div>
+<div class="mapband">
+  <div class="pane" id="mapWrap" data-fullscreen-map role="application" aria-label="Map of UK constituencies coloured by how much more often the MP named the seat's places on Facebook than in the Commons">
+    <div id="map"></div>
+    <div class="nojs" id="nojs">Loading the map. It needs JavaScript and WebGL.</div>
+    <div class="cartouche" id="cartouche">
+      <button class="ct-toggle" id="ctToggle" aria-expanded="true">Two faces of the constituency ▾</button>
+      <button class="ct-fold" id="ctFold" title="Fold the title" aria-label="Fold the title">▴</button>
+      <div class="ct-body">
+        <div class="kicker"><b>Data study</b><span>2026</span></div>
+        <h1>Two faces of <span class="a">the constituency</span></h1>
+        <p class="dek">How often each MP named the places in their own seat: per 100 Facebook posts, and per 100 spoken contributions in the House of Commons, February 2017 to October 2020. {{map.n|int}} seats have an MP with a page in the list. Tap a seat for its places in both venues.</p>
+        <div class="byline">{{BYLINE}}</div>
+      </div>
+    </div>
+    <div class="ov-top">
+      <div class="srch"><input type="search" id="q" placeholder="Find a seat, MP or place" aria-label="Find a seat, MP or place" autocomplete="off"><ul class="sug" id="sug" role="listbox"></ul></div>
+      <div class="chips"><button class="chip" data-m="g" aria-pressed="true">Gap</button><button class="chip" data-m="f" aria-pressed="false">Facebook</button><button class="chip" data-m="c" aria-pressed="false">Commons</button><button class="chip lyr" id="lyrBtn" aria-expanded="false" aria-controls="lp">Layers</button></div>
+    </div>
+    <div class="lp" id="lp" role="dialog" aria-label="Map layers">
+      <h4>Layers</h4>
+      <label><input type="checkbox" id="lyS" checked> Seats with a matched MP (coloured)</label>
+      <label><input type="checkbox" id="lyN" checked> Seats with no MP page in the list (hatched)</label>
+      <label><input type="checkbox" id="lyO" checked> Seat outlines</label>
+      <label><input type="checkbox" id="lyL" checked> Base map labels</label>
+    </div>
+    <div class="keys" id="keys"><b id="keyTitle">Facebook minus Commons</b><div class="bar" id="keyBar"></div><div class="ends" id="keyEnds"><span>-20</span><span>0</span><span>+60</span></div>
+      <div class="row kx" style="color:#6E604E" id="keySub">own-seat place mentions per 100 items</div><div class="row"><span style="display:inline-block;width:18px;height:11px;border:1px solid #B9AE96;background:repeating-linear-gradient(135deg,#fff 0 3px,#B9AE96 3px 4px)"></span>hatched: no MP page in the list</div><div class="row kx" style="color:#6E604E">2010 seats; GB and Northern Ireland</div></div>
+  </div>
+</div>
+<div class="wrap" id="essay">
+<p style="margin-top:6px">An MP speaks to two audiences. In the House of Commons, the audience is other MPs, ministers and the official record. On the MP's own Facebook page, it is constituents. I wanted to know whether MPs show their constituency more in one of these than the other, so I counted how often each MP named the towns and villages in their own seat in both places: the same MP, the same months and the same list of places.</p>
+<div class="byline">{{BYLINE}} · Data: the author's CrowdTangle list of MPs' Facebook pages (counts only), Hansard via the UK Parliament API (Open Parliament Licence v3.0), Wikidata (CC0) · Base map: OpenFreeMap Positron</div>
+<div class="stats">
+<div class="stat"><b>{{x.fb_per100|f0}}</b><span>mentions of own-seat places per 100 Facebook posts</span></div>
+<div class="stat"><b>{{x.cm_per100|f0}}</b><span>per 100 spoken contributions in the Commons</span></div>
+<div class="stat"><b>{{H1.rr|f1}}x</b><span>Facebook against the Commons, same MP and month</span></div>
+<div class="stat"><b>{{mp.fb_higher|int}}/{{mp.n|int}}</b><span>MPs who named their places more often on Facebook</span></div>
+</div>
+
+<h2><span class="n">01 · The local face</span>Four times as local</h2>
+<p>I matched {{sample.matched|int}} Facebook pages in a list I built during my PhD to the MPs who ran them, and for each MP I wrote down a list of places in their seat before looking at any Commons data: the towns in the seat's name, its eight biggest other places and a random sample of the rest. Then I counted how often each MP's posts and each MP's spoken contributions in the Commons named those places. For every 100 Facebook posts, MPs named a place in their own seat {{x.fb_per100|f0}} times. For every 100 things they said in the chamber, {{x.cm_per100|f0}} times. Comparing each MP with themselves in the same months, the Facebook rate is {{H1.rr|f1}} times the Commons rate (95% interval {{H1.lo|f1}} to {{H1.hi|f1}}), and {{mp.fb_higher|int}} of the {{mp.n|int}} MPs with at least 20 posts and 20 contributions named their patch more often on Facebook.</p>
+<div class="figure"><img src="img/scatter.jpg" alt="Scatter chart of {{mp.n|int}} MPs: Commons rate on the horizontal axis, mostly under 20 per 100 contributions, and Facebook rate on the vertical axis, mostly between 20 and 75 per 100 posts; almost every dot sits above the line of equal rates" loading="lazy"><p class="src">Each dot is an MP. Above the dashed line: more local on Facebook.</p></div>
+<p>The data have a hard edge. CrowdTangle exports stop at 300,000 rows, and this one stopped there, so the posts start on 11 February 2017. Everything here covers February 2017 to October 2020: two general elections, the Brexit votes of 2019 and the first months of COVID.</p>
+<div class="figure"><img src="img/monthly.jpg" alt="Line chart by month from 2017 to 2020: the Facebook line runs between about {{monthly.fb_min|f0}} and {{monthly.fb_max|f0}} mentions per 100 posts, the Commons line between about {{monthly.cm_min|f0}} and {{monthly.cm_max|f0}} per 100 contributions, with a dip on Facebook in spring 2020" loading="lazy"><p class="src">All MPs together, month by month.</p></div>
+
+<h2><span class="n">02 · Which places</span>Louder, not different</h2>
+<p>I expected Facebook to reach further down the map, to the villages and estates that rarely come up in a debate. It doesn't, at least not in the way I tested. Both venues name bigger places much more than small ones, and at much the same rate. Facebook names places of every size about four times as often (between {{x.size_ratio_min|f1}} and {{x.size_ratio_max|f1}} times, by size band). That holds for the towns in the seat's name ({{rate.facebook.y_seat|f0}} against {{rate.commons.y_seat|f0}} per 100 items) and for everywhere else ({{x.fb_other_per100|f0}} against {{x.cm_other_per100|f0}}). The page is a louder version of the same map.</p>
+<div class="figure"><img src="img/size.jpg" alt="Bar chart by population band: Facebook and Commons mentions both rise steeply with population, with Facebook higher in every band" loading="lazy"><p class="src">Mentions of one place per 1,000 items, by the size of the place.</p></div>
+<p>There is a check built in. Each MP's list also had two places in someone else's seat. If Facebook simply named more places of any kind, those would show the same gap. They don't: they turn up about {{placebo.fb_rate|f2}} times per 100 posts and {{placebo.cm_rate|f2}} times per 100 contributions, a ratio of {{placebo.rr|f2}}.</p>
+<div class="figure"><img src="img/groups.jpg" alt="Bar chart of mentions per 100 items: places in the seat's name {{rate.facebook.y_seat|f1}} on Facebook and {{rate.commons.y_seat|f1}} in the Commons; most populous other places {{rate.facebook.y_pop|f1}} and {{rate.commons.y_pop|f1}}; a random sample of places {{rate.facebook.y_random|f1}} and {{rate.commons.y_random|f1}}; places in another seat close to zero in both" loading="lazy"><p class="src">The same places, counted the same way, in both venues.</p></div>
+
+<h2><span class="n">03 · Office</span>The Commons face changes with the job</h2>
+<p>A third pattern is about office. In the months an MP held a frontbench post (a minister, a shadow minister or a party leader), their Commons contributions named their own seat's places {{x.front_cm_drop_pc|f0}}% less often than in that same MP's other months. Their Facebook rate didn't change (a ratio of {{H4.front_facebook.rr|f2}}). In frontbench months the Westminster face names home less; the home face does not. I had expected the gap to shrink for frontbenchers. It grew.</p>
+<p>Two other results also went against what I wrote down beforehand. MPs in marginal seats, with majorities under ten points, had a smaller gap, not a bigger one ({{x.marginal_pc|f0}}% smaller): if anything, they were more local in the chamber. And in spring 2020, as COVID arrived, Facebook pages named local places {{x.covid_fb_drop_pc|f0}}% less often than usual for a few months before recovering. The Brexit votes of 2019 made no clear difference in either venue.</p>
+<div class="figure"><img src="img/who.jpg" alt="Dot and whisker chart: frontbench months cut the Commons rate to about a quarter but leave Facebook unchanged; COVID months lower the Facebook rate; the gap is smaller in marginal seats and larger for frontbench months and the government side" loading="lazy"><p class="src">Ratios with 95% intervals, comparing each MP with themselves.</p></div>
+
+<h2><span class="n">04 · Checks</span>Fifteen ways, one answer</h2>
+<p>I ran the comparison {{robust_range.n|int}} other ways: counting link titles and image text as well as the MP's own words, dropping ambiguous names like Bath or Sale, leaving out the seat's own name, using only the biggest places or only the random sample, counting by quarter, leaving out each nation in turn, dropping the ten biggest pages, dropping Deputy Speakers, and a different statistical model. The ratio stayed between {{robust_range.min|f1}} and {{robust_range.max|f1}} every time.</p>
+<div class="figure"><img src="img/robust.jpg" alt="Forest plot of {{robust_range.n|int}} checks, all between {{robust_range.min|f1}} and {{robust_range.max|f1}}, with the placebo at about 1" loading="lazy"><p class="src">Every check, and the placebo.</p></div>
+
+<h2><span class="n">05 · How I did this</span>Places, pages and the record</h2>
+<p><b>Facebook.</b> The pages come from a CrowdTangle list of MPs' pages that I built for my PhD and exported in 2020. I chose which pages to follow, so this is not every MP: {{map.n|int}} of the 650 seats have a matched MP. A post counts only if the MP held the seat on the day it was made. I used only whether each post's own text named each place. No post text, link or address is stored or shared, only counts per MP, month and place.</p>
+<p><b>The Commons.</b> For each MP and each place, the UK Parliament's Hansard search gave the number of that MP's spoken contributions per month containing the place name, and the number of all their contributions. A contribution can be a long speech or a one-line question; a post can be a sentence and a photo. So this is a rate per item, not per word.</p>
+<p><b>Places.</b> Each 2010 constituency got a list of places from Wikidata's UK settlements, an earlier study of mine and the seat's own name. Names that are also ordinary words or that belong to a bigger place elsewhere were searched as "in" plus the name in both venues. I wrote the full analysis plan before the Commons counts arrived, and everything added later is labelled as such in the paper.</p>
+<p><b>What this cannot say.</b> It counts names, not meaning: a post can name a town to praise it or to complain. The pages are the ones I followed, which over-represent active MPs. And it shows where MPs name their places, not why.</p>
+<details><summary>Sources and licences</summary>
+<ul class="plain">
+<li>Facebook page data: the author's CrowdTangle list of UK MPs' pages (CrowdTangle, Meta), exported October 2020. Only aggregate counts are published.</li>
+<li>Hansard, House of Commons: monthly counts of spoken contributions by member and phrase from the UK Parliament Hansard API. Contains Parliamentary information licensed under the Open Parliament Licence v3.0.</li>
+<li>MPs, seats, parties and posts: mySociety parlparse (records of the House of Commons, Open Parliament Licence v3.0). Election majorities from <i>Who Won Here?</i> (Hotham 2026, doi:10.5281/zenodo.23761425).</li>
+<li>Places: Wikidata (CC0) and <i>Mentioned in the House</i> (Hotham 2026, doi:10.5281/zenodo.23761431). Northern Ireland seat boundaries from martinjc/UK-GeoJSON (Open Government Licence v3.0).</li>
+<li>Base map: OpenFreeMap Positron style (OpenStreetMap, ODbL). MapLibre GL JS 4.7.1 (BSD 3-Clause).</li>
+<li>Text, figures and data CC BY 4.0; code MIT.</li>
+</ul></details>
+<div class="cta"><a class="p" href="https://doi.org/10.5281/zenodo.24105795">Read the paper</a><a href="{{REPO}}">Data and code</a><a href="https://blog.tristanhotham.com/2026/10/31/janus-places/">Blog post</a></div>
+<footer>
+<p>Dr Tristan Hotham, Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+<p>Cite as: Hotham, T. (2026) Two faces of the constituency: how often British MPs name the places they represent on Facebook and in the House of Commons, 2017 to 2020. Zenodo. <a href="https://doi.org/10.5281/zenodo.24105795">10.5281/zenodo.24105795</a></p>
+<p>Code: <a href="{{REPO}}">github.com/Tristan-Hotham/janus-places</a> (MIT). Text, figures and data CC BY 4.0.</p>
+<p>{{AI}}</p>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="js/page.js?v={{VERSION}}"></script>
+{{FULLSCREEN}}
+<script src="https://maps.tristanhotham.com/assets/site-nav.js" defer></script>
+</body>
+</html>

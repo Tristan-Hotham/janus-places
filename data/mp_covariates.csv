@@ -1,0 +1,367 @@
+spell,person_id,seat,member_name,member_id,start,end,party,party_last,nation,fb_id,page_name,followers_last,maj2015,maj2017,maj2019
+10001|Hackney North and Stoke Newington,10001,Hackney North and Stoke Newington,Diane Abbott,172,2017-02-11,2020-10-28,Labour,Labour,England,146266335515833,Diane Abbott,58706,48.129999999999995,62.41,58.36000000000001
+10051|Reigate,10051,Reigate,Crispin Blunt,104,2017-02-11,2020-10-28,Conservative,Conservative,England,581336375284613,Crispin Blunt MP,1048,43.49,32.72,34.45
+10057|Worthing West,10057,Worthing West,Peter Bottomley,117,2017-02-11,2020-10-28,Conservative,Conservative,England,293136030810246,Sir Peter Bottomley MP,2097,33.2,22.18,27.130000000000003
+10065|Canterbury,10065,Canterbury,Julian Brazier,77,2017-02-11,2017-05-03,Conservative,Conservative,England,642488132534201,Julian Brazier,838,18.33,0.3300000000000054,3.0500000000000043
+"10076|Birmingham, Northfield",10076,"Birmingham, Northfield",Richard Burden,301,2017-02-11,2019-11-06,Labour,Labour,England,408327562984,Richard Burden,2686,5.909999999999997,10.530000000000001,3.8100000000000023
+10084|Twickenham,10084,Twickenham,Vincent Cable,207,2017-06-09,2019-11-06,Liberal Democrat,Liberal Democrat,England,405046796227418,Vince Cable,14879,3.259999999999998,14.719999999999999,21.89
+10119|The Cotswolds,10119,The Cotswolds,Geoffrey Clifton-Brown,249,2017-02-11,2020-10-28,Conservative,Conservative,England,210783529096991,Geoffrey Clifton-Brown,474,37.9,42.71,33.04
+10121|Gedling,10121,Gedling,Vernon Coaker,360,2017-02-11,2019-11-06,Labour,Labour,England,546387805483211,Vernon Coaker,8011,6.219999999999999,9.079999999999998,1.3599999999999994
+"10131|Normanton, Pontefract and Castleford",10131,"Normanton, Pontefract and Castleford",Yvette Cooper,420,2017-02-11,2020-10-28,Labour,Labour,England,157611834294301,Yvette Cooper,42555,33.61,29.48,2.6399999999999935
+10133|Islington North,10133,Islington North,Jeremy Corbyn,185,2017-02-11,2020-10-28,Labour,Labour,England,330250343871,Jeremy Corbyn,1576323,43.05,60.470000000000006,48.67
+10159|Swansea West,10159,Swansea West,Geraint Davies,155,2017-02-11,2020-10-28,Labour/Co-operative,Labour,Wales,363232907137083,Geraint Davies,1318,20.01,28.43,22.65
+10172|Lagan Valley,10172,Lagan Valley,Jeffrey M. Donaldson,650,2017-02-11,2020-10-28,DUP,DUP,Northern Ireland,743427719020052,Sir Jeffrey Donaldson MP,9424,32.660000000000004,45.239999999999995,14.32
+10182|Wallasey,10182,Wallasey,Angela Eagle,491,2017-02-11,2020-10-28,Labour,Labour,England,219217080315,Angela Eagle,19139,37.7,48.22999999999999,39.400000000000006
+10183|Garston and Halewood,10183,Garston and Halewood,Maria Eagle,483,2017-02-11,2020-10-28,Labour,Labour,England,1629829883913244,Maria Eagle,1669,55.42,60.06,59.300000000000004
+10185|Eltham,10185,Eltham,Clive Efford,165,2017-02-11,2020-10-28,Labour,Labour,England,372509762823054,Clive Efford,3315,6.239999999999995,13.64,7.32
+10193|Lichfield,10193,Lichfield,Michael Fabricant,280,2017-02-11,2020-10-28,Conservative,Conservative,England,500575476680160,Michael Fabricant,6132,35.339999999999996,34.72,43.78
+10202|Don Valley,10202,Don Valley,Caroline Flint,389,2017-02-11,2019-11-06,Labour,Labour,England,161524687249992,Caroline Flint,12600,20.91,11.240000000000002,7.989999999999995
+10203|Newport West,10203,Newport West,Paul Flynn,545,2017-02-11,2019-02-17,Labour,Labour,Wales,790160707703631,Paul Flynn,4518,8.699999999999996,13.020000000000003,2.0700000000000003
+10213|North Somerset,10213,North Somerset,Liam Fox,223,2017-02-11,2020-10-28,Conservative,Conservative,England,351694621698331,Dr Liam Fox MP,10100,39.19,27.59,28.259999999999998
+10217|North Thanet,10217,North Thanet,Roger Gale,87,2017-02-11,2020-10-28,Conservative,Conservative,England,682838751730179,Sir Roger Gale,2499,23.339999999999996,22.22,35.67999999999999
+10220|Brent North,10220,Brent North,Barry Gardiner,146,2017-02-11,2020-10-28,Labour,Labour,England,247833162001181,Barry Gardiner,16085,20.75,30.230000000000004,15.57
+10221|Harborough,10221,Harborough,Edward Garnier,337,2017-02-11,2017-05-03,Conservative,Conservative,England,1414447075475925,Sir Edward Garnier QC,1314,37.410000000000004,21.580000000000002,30.139999999999997
+10240|North Wiltshire,10240,North Wiltshire,James Gray,261,2017-02-11,2020-10-28,Conservative,Conservative,England,237804497979,James Gray,1418,41.63,42.59,32.19
+10263|Saffron Walden,10263,Saffron Walden,Alan Haselhurst,43,2017-02-11,2017-05-03,Conservative,Conservative,England,15221804966,Sir Alan Haselhurst,1372,43.42,40.99,38.15
+10281|Barking,10281,Barking,Margaret Hodge,140,2017-02-11,2020-10-28,Labour,Labour,England,488618241175287,Margaret Hodge,4965,35.49,45.32,34.67
+10312|Harwich and North Essex,10312,Harwich and North Essex,Bernard Jenkin,40,2017-02-11,2020-10-28,Conservative,Conservative,England,1146210108728897,Bernard Jenkin MP,1441,31.33,28.069999999999997,38.839999999999996
+10371|East Worthing and Shoreham,10371,East Worthing and Shoreham,Tim Loughton,114,2017-02-11,2020-10-28,Conservative,Conservative,England,1418302308452871,Tim Loughton MP,6228,29.959999999999997,9.619999999999997,14.0
+10381|Mitcham and Morden,10381,Mitcham and Morden,Siobhain McDonagh,193,2017-02-11,2020-10-28,Labour,Labour,England,1485922148331912,Siobhain McDonagh,5777,37.48,44.42,36.04
+10415|Blackpool South,10415,Blackpool South,Gordon Marsden,465,2017-02-11,2019-11-06,Labour,Labour,England,842988145761080,Gordon Marsden,2628,7.970000000000006,7.219999999999999,11.269999999999996
+10477|Brentwood and Ongar,10477,Brentwood and Ongar,Eric Pickles,33,2017-02-11,2017-05-03,Conservative,Conservative,England,1419878098311019,Eric Pickles,4385,42.03,45.36000000000001,54.9
+10499|Wokingham,10499,Wokingham,John Redwood,14,2017-02-11,2020-10-28,Conservative,Conservative,England,45141757848,John Redwood,2344,43.209999999999994,31.5,11.910000000000004
+10525|Gordon,10525,Gordon,Alex Salmond,577,2017-02-11,2017-05-03,Scottish National Party,Scottish National Party,Scotland,136191876445102,Alex Salmond,163263,14.939999999999998,4.859999999999999,1.4699999999999989
+10534|Huddersfield,10534,Huddersfield,Barry Sheerman,411,2017-02-11,2020-10-28,Labour/Co-operative,Labour/Co-operative,England,1559867020942768,Barry Sheerman MP,832,18.15,27.39,20.35
+10544|Bolsover,10544,Bolsover,Dennis Skinner,325,2017-02-11,2019-11-06,Labour,Labour,England,60783991559,Dennis Skinner,118271,26.769999999999996,11.370000000000005,11.54
+10558|Warley,10558,Warley,John Spellar,318,2017-02-11,2020-10-28,Labour,Labour,England,293691404006904,John Spellar,1288,38.87,40.989999999999995,30.910000000000004
+10580|New Forest West,10580,New Forest West,Desmond Swayne,55,2017-02-11,2020-10-28,Conservative,Conservative,England,792797774112025,Sir Desmond Swayne,1998,43.46000000000001,47.22,48.510000000000005
+10594|Harrow West,10594,Harrow West,Gareth Thomas,177,2017-02-11,2020-10-28,Labour/Co-operative,Labour/Co-operative,England,449319558604601,Gareth Thomas MP,3847,4.740000000000002,26.440000000000005,18.129999999999995
+10604|Hemsworth,10604,Hemsworth,Jon Trickett,410,2017-02-11,2020-10-28,Labour,Labour,England,1393884720875497,Jon Trickett MP,4555,28.480000000000004,22.14,2.690000000000005
+"10630|Southampton, Test",10630,"Southampton, Test",Alan Whitehead,62,2017-02-11,2020-10-28,Labour,Labour,England,243541822334353,Alan Whitehead,1752,8.720000000000006,24.519999999999996,13.800000000000004
+10632|Maldon,10632,Maldon,John Whittingdale,39,2017-02-11,2020-10-28,Conservative,Conservative,England,760628537348163,John Whittingdale,220,45.93000000000001,47.69000000000001,59.599999999999994
+10648|Doncaster Central,10648,Doncaster Central,Rosie Winterton,390,2017-02-11,2020-10-28,Labour,Labour,England,555714517864252,Rosie Winterton,1836,24.97,23.549999999999997,5.469999999999999
+10678|Tottenham,10678,Tottenham,David Lammy,206,2017-02-11,2020-10-28,Labour,Labour,England,19129786540,David Lammy,98400,55.37,70.1,64.39999999999999
+10766|Leigh,10766,Leigh,Andy Burnham,1427,2017-02-11,2017-05-03,Labour/Co-operative,Labour/Co-operative,England,809004655861249,Andy Burnham,42327,31.240000000000002,20.380000000000003,4.190000000000005
+10770|North East Bedfordshire,10770,North East Bedfordshire,Alistair Burt,1201,2017-02-11,2019-11-06,Conservative,Independent,England,174852262702077,Alistair Burt,1789,43.71,32.49,37.35
+10828|Dagenham and Rainham,10828,Dagenham and Rainham,Jon Cruddas,1406,2017-02-11,2020-10-28,Labour,Labour,England,154460011342711,Jon Cruddas,5884,11.57,10.149999999999999,0.6699999999999946
+10854|Huntingdon,10854,Huntingdon,Jonathan Djanogly,1425,2017-02-11,2020-10-28,Conservative,Conservative,England,69653361114,Jonathan Djanogly,479,34.7,24.24,32.78
+10857|Belfast North,10857,Belfast North,Nigel Dodds,1388,2017-02-11,2019-11-06,DUP,DUP,Northern Ireland,527549544016542,Nigel Dodds,7126,13.119999999999997,4.530000000000001,3.960000000000001
+10858|West Tyrone,10858,West Tyrone,Pat Doherty,1465,2017-02-11,2017-05-03,Sinn Féin,Sinn Féin,Northern Ireland,500596796739850,Pat Doherty,2473,26.029999999999998,23.779999999999998,18.16
+10901|Rayleigh and Wickford,10901,Rayleigh and Wickford,Mark Francois,1444,2017-02-11,2020-10-28,Conservative,Conservative,England,1389854687945378,Mark Francois,9013,32.379999999999995,42.379999999999995,56.46
+10999|Uxbridge and South Ruislip,10999,Uxbridge and South Ruislip,Boris Johnson,1423,2017-02-11,2020-10-28,Conservative,Conservative,England,7972991316,Boris Johnson,1579769,23.87,10.780000000000001,14.96
+11032|North Norfolk,11032,North Norfolk,Norman Lamb,1439,2017-02-11,2019-11-06,Liberal Democrat,Liberal Democrat,England,121130011374136,Norman Lamb,6864,8.190000000000001,6.729999999999997,28.319999999999997
+11145|Tatton,11145,Tatton,George Osborne,1458,2017-02-11,2017-05-03,Conservative,Conservative,England,1061816190525027,George Osborne,21085,40.269999999999996,30.1,35.510000000000005
+11189|Moray,11189,Moray,Angus Robertson,1433,2017-02-11,2017-05-03,Scottish National Party,Scottish National Party,Scotland,339479122880272,Angus Robertson for Edinburgh Central,21028,18.389999999999997,8.729999999999997,1.0499999999999972
+11309|West Bromwich East,11309,West Bromwich East,Tom Watson,1463,2017-02-11,2019-11-06,Labour,Labour,England,470873686267967,Tom Watson,57321,25.259999999999998,19.729999999999997,4.43
+11323|Arfon,11323,Arfon,Hywel Williams,1397,2017-02-11,2020-10-28,Plaid Cymru,Plaid Cymru,Wales,578194528905927,Hywel Williams AS/MP,4942,13.669999999999998,0.3300000000000054,9.560000000000002
+11333|Perth and North Perthshire,11333,Perth and North Perthshire,Pete Wishart,1440,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,503723509655064,Pete Wishart MP,4712,17.78,0.03999999999999915,13.96
+"11360|Birmingham, Hodge Hill",11360,"Birmingham, Hodge Hill",Liam Byrne,1171,2017-02-11,2020-10-28,Labour,Labour,England,147894618876725,Liam Byrne,22615,56.93000000000001,66.88,63.67
+11374|East Antrim,11374,East Antrim,Sammy Wilson,1593,2017-02-11,2020-10-28,DUP,DUP,Northern Ireland,350415925064495,Sammy Wilson,8256,17.509999999999998,41.72,18.0
+11402|Belfast South,11402,Belfast South,Alasdair McDonnell,1596,2017-02-11,2017-05-03,Social Democratic and Labour Party,Social Democratic and Labour Party,Northern Ireland,1670188663239376,Alasdair McDonnell,1871,2.3299999999999983,4.57,32.53
+11437|Bournemouth East,11437,Bournemouth East,Tobias Ellwood,1487,2017-02-11,2020-10-28,Conservative,Conservative,England,932882710056959,Rt. Hon. Tobias Ellwood,5410,32.6,16.330000000000005,17.870000000000005
+11447|Brent Central,11447,Brent Central,Dawn Butler,1489,2017-02-11,2020-10-28,Labour,Labour,England,414773028678016,Dawn Butler,23743,41.78,53.53,42.480000000000004
+11455|Bristol East,11455,Bristol East,Kerry McCarthy,1491,2017-02-11,2020-10-28,Labour,Labour,England,147109595355254,Kerry McCarthy MP,9259,8.610000000000003,26.36,20.689999999999998
+11489|Ceredigion,11489,Ceredigion,Mark Williams,1498,2017-02-11,2017-05-03,Liberal Democrat,Liberal Democrat,Wales,127410864082447,Mark Williams,4590,8.200000000000003,0.26000000000000156,15.780000000000001
+11500|Chipping Barnet,11500,Chipping Barnet,Theresa Villiers,1500,2017-02-11,2020-10-28,Conservative,Conservative,England,450568105101647,Theresa Villiers,9956,14.440000000000005,0.6299999999999955,2.1099999999999994
+11541|Torridge and West Devon,11541,Torridge and West Devon,Geoffrey Cox,1508,2017-02-11,2020-10-28,Conservative,Conservative,England,243525208882,Geoffrey Cox,2840,32.52,34.78,41.84
+11545|Doncaster North,11545,Doncaster North,Ed Miliband,1510,2017-02-11,2020-10-28,Labour,Labour,England,123679177651052,Ed Miliband,141644,29.82,33.150000000000006,5.829999999999998
+11553|Dudley North,11553,Dudley North,Ian Austin,1511,2017-02-11,2019-11-06,Labour,Independent,England,483269525132529,Ian Austin,3520,11.000000000000004,0.05000000000000426,31.44
+11559|Hammersmith,11559,Hammersmith,Andrew Slaughter,1516,2017-02-11,2020-10-28,Labour,Labour,England,159552364156522,Andy Slaughter,6747,13.590000000000003,35.69,34.339999999999996
+"11573|Enfield, Southgate",11573,"Enfield, Southgate",David Burrowes,1518,2017-02-11,2017-05-03,Conservative,Conservative,England,368683026622877,David Burrowes,1986,10.370000000000005,9.009999999999998,9.420000000000002
+11588|Forest of Dean,11588,Forest of Dean,Mark Harper,1520,2017-02-11,2020-10-28,Conservative,Conservative,England,534242786681792,Mark Harper,2117,22.189999999999998,18.35,30.830000000000002
+11589|Foyle,11589,Foyle,Mark Durkan,1594,2017-02-11,2017-05-03,Social Democratic and Labour Party,Social Democratic and Labour Party,Northern Ireland,2002340613394109,Mark Durkan,335,16.34,0.36999999999999744,36.290000000000006
+11592|Washington and Sunderland West,11592,Washington and Sunderland West,Sharon Hodgson,1521,2017-02-11,2020-10-28,Labour,Labour,England,610012855796352,Sharon Hodgson,2183,35.31,31.9,9.920000000000002
+11599|Gravesham,11599,Gravesham,Adam Holloway,1522,2017-02-11,2020-10-28,Conservative,Conservative,England,814863971892844,Adam Holloway,3681,16.700000000000003,19.080000000000005,32.77
+11603|Guildford,11603,Guildford,Anne Milton,1523,2017-02-11,2019-11-06,Conservative,Independent,England,264668287074083,Anne Milton,687,41.59,26.24,5.689999999999998
+11610|Chelsea and Fulham,11610,Chelsea and Fulham,Greg Hands,1526,2017-02-11,2020-10-28,Conservative,Conservative,England,681337358647228,Greg Hands,790,39.83,19.439999999999998,24.009999999999998
+11621|Clacton,11621,Clacton,Douglas Carswell,1527,2017-02-11,2017-05-03,UKIP,UKIP,England,358469527671375,Douglas Carswell,13922,7.770000000000003,35.849999999999994,56.78
+11626|Hemel Hempstead,11626,Hemel Hempstead,Mike Penning,1528,2017-02-11,2020-10-28,Conservative,Conservative,England,118816204795273,Sir Mike Penning,1773,29.060000000000002,18.060000000000002,28.4
+11640|Old Bexley and Sidcup,11640,Old Bexley and Sidcup,James Brokenshire,1530,2017-02-11,2020-10-28,Conservative,Conservative,England,585288621599074,James Brokenshire,2105,33.81,32.19,41.06999999999999
+11647|Kingston upon Hull North,11647,Kingston upon Hull North,Diana R. Johnson,1533,2017-02-11,2020-10-28,Labour,Labour,England,454836937879924,Diana Johnson,2969,36.5,38.44,22.199999999999996
+11656|Islington South and Finsbury,11656,Islington South and Finsbury,Emily Thornberry,1536,2017-02-11,2020-10-28,Labour,Labour,England,142202379163151,Emily Thornberry,79544,28.71,42.17,36.239999999999995
+11667|West Lancashire,11667,West Lancashire,Rosie Cooper,1538,2017-02-11,2020-10-28,Labour,Labour,England,283696541445,Rosie Cooper MP,684,19.17,21.490000000000002,15.829999999999998
+11668|Wyre and Preston North,11668,Wyre and Preston North,Ben Wallace,1539,2017-02-11,2020-10-28,Conservative,Conservative,England,666993926744443,Ben Wallace,998,28.360000000000003,23.259999999999998,31.709999999999997
+11692|Llanelli,11692,Llanelli,Nia Griffith,1541,2017-02-11,2020-10-28,Labour,Labour,Wales,154165864657660,Nia Griffith MP,3198,18.390000000000004,29.8,12.219999999999999
+11696|Ludlow,11696,Ludlow,Philip Dunne,1542,2017-02-11,2020-10-28,Conservative,Conservative,England,219537871531305,Philip Dunne,672,35.199999999999996,38.59,47.08
+11715|Milton Keynes North,11715,Milton Keynes North,Mark Lancaster,1544,2017-02-11,2019-11-06,Conservative,Conservative,England,298398717018170,Rt Hon Lord - Mark Lancaster,1692,16.9,3.0,10.0
+11719|Monmouth,11719,Monmouth,David Davies,1545,2017-02-11,2020-10-28,Conservative,Conservative,Wales,541033185979612,David TC Davies MP,2728,23.139999999999997,16.5,19.870000000000005
+11768|Preseli Pembrokeshire,11768,Preseli Pembrokeshire,Stephen Crabb,1554,2017-02-11,2020-10-28,Conservative,Conservative,Wales,886968011353216,Stephen Crabb,4174,12.259999999999998,0.7399999999999949,11.93
+11771|Putney,11771,Putney,Justine Greening,1555,2017-02-11,2019-11-06,Conservative,Independent,England,60514570824,Justine Greening,11149,23.77,3.3200000000000003,9.46
+11791|Kenilworth and Southam,11791,Kenilworth and Southam,Jeremy Wright,1560,2017-02-11,2020-10-28,Conservative,Conservative,England,1524232501197875,Jeremy Wright MP,913,43.05,35.25,38.69
+11859|South West Surrey,11859,South West Surrey,Jeremy Hunt,1572,2017-02-11,2020-10-28,Conservative,Conservative,England,240524219428168,Jeremy Hunt,14589,49.989999999999995,35.730000000000004,14.61
+11915|Wellingborough,11915,Wellingborough,Peter Bone,1581,2017-02-11,2020-10-28,Conservative,Conservative,England,259454844136861,Peter Bone,536,32.51,23.409999999999997,35.72
+11917|Welwyn Hatfield,11917,Welwyn Hatfield,Grant Shapps,1582,2017-02-11,2020-10-28,Conservative,Conservative,England,141543002709690,Grant Shapps,14118,24.21,14.259999999999998,21.050000000000004
+11923|Westmorland and Lonsdale,11923,Westmorland and Lonsdale,Tim Farron,1591,2017-02-11,2020-10-28,Liberal Democrat,Liberal Democrat,England,118873691462974,Tim Farron,35064,18.29,1.509999999999998,3.6699999999999946
+11924|Weston-Super-Mare,11924,Weston-Super-Mare,John Penrose,1584,2017-02-11,2020-10-28,Conservative,Conservative,England,868955783166629,John Penrose MP,6243,29.7,20.47,30.79
+11927|Wimbledon,11927,Wimbledon,Stephen Hammond,1585,2017-02-11,2020-10-28,Conservative,Conservative,England,587561007950931,Stephen Hammond MP,2514,26.060000000000002,10.909999999999997,1.1799999999999997
+11929|Windsor,11929,Windsor,Adam Afriyie,1586,2017-02-11,2020-10-28,Conservative,Conservative,England,418341241682278,Adam Afriyie,469,50.0,41.519999999999996,37.36
+11943|Worsley and Eccles South,11943,Worsley and Eccles South,Barbara Keeley,1588,2017-02-11,2020-10-28,Labour,Labour,England,833522900042388,Barbara Keeley,1057,14.150000000000002,18.36,6.920000000000002
+11971|East Dunbartonshire,11971,East Dunbartonshire,Jo Swinson,1513,2017-06-09,2019-11-06,Liberal Democrat,Liberal Democrat,Scotland,20487968781,Jo Swinson,18461,3.9499999999999957,10.299999999999997,0.28999999999999915
+11973|Dundee East,11973,Dundee East,Stewart Hosie,1514,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,613631835423903,Stewart Hosie SNP MP,17080,39.77,15.480000000000004,29.539999999999996
+12004|Na h-Eileanan an Iar,12004,Na h-Eileanan an Iar,Angus MacNeil,1546,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,876000515751444,Angus MacNeil MP Na h-Eileanan an Iar,4474,25.740000000000002,6.799999999999997,16.84
+13864|Strangford,13864,Strangford,Jim Shannon,4131,2017-02-11,2020-10-28,DUP,DUP,Northern Ireland,477928115581090,Jim Shannon,2210,30.019999999999996,47.34,18.859999999999996
+13893|Newry and Armagh,13893,Newry and Armagh,Mickey Brady,4373,2017-02-11,2020-10-28,Sinn Féin,Sinn Féin,Northern Ireland,350057565184467,Mickey Brady MP,2636,8.379999999999995,23.31,18.290000000000003
+13904|Belfast West,13904,Belfast West,Paul Maskey,4245,2017-02-11,2020-10-28,Sinn Féin,Sinn Féin,Northern Ireland,718972321502855,Paul Maskey MP,15294,35.0,53.279999999999994,37.83
+"13934|Ealing, Southall",13934,"Ealing, Southall",Virendra Sharma,1604,2017-02-11,2020-10-28,Labour,Labour,England,45876494708,Virendra Sharma,2775,43.3,48.93000000000001,38.09
+14146|Glasgow North East,14146,Glasgow North East,Anne McLaughlin,4437,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,775818302465865,Anne McLaughlin SNP Glasgow North East MP,3006,24.36,0.7600000000000051,7.509999999999998
+24684|South Antrim,24684,South Antrim,Danny Kinahan,4381,2017-02-11,2017-05-03,UUP,UUP,Northern Ireland,889117294444581,Danny Kinahan,2031,2.6000000000000014,7.430000000000003,6.260000000000002
+24691|Norwich North,24691,Norwich North,Chloe Smith,1609,2017-02-11,2020-10-28,Conservative,Conservative,England,1509476925970053,Chloe Smith MP,5719,10.240000000000002,1.1099999999999994,10.239999999999995
+24709|Houghton and Sunderland South,24709,Houghton and Sunderland South,Bridget Phillipson,4046,2017-02-11,2020-10-28,Labour,Labour,England,329262860438866,Bridget Phillipson,6517,33.620000000000005,29.75,7.829999999999998
+24710|Sunderland Central,24710,Sunderland Central,Julie Elliott,4127,2017-02-11,2020-10-28,Labour,Labour,England,661360614007742,Julie Elliott,3075,26.769999999999996,22.159999999999997,6.810000000000002
+24713|Kingswood,24713,Kingswood,Chris Skidmore,4021,2017-02-11,2020-10-28,Conservative,Conservative,England,1463734517281960,Chris Skidmore,628,18.72,15.39,22.75
+24719|Battersea,24719,Battersea,Jane Ellison,3918,2017-02-11,2017-05-03,Conservative,Conservative,England,743846335706090,Jane Ellison,1720,15.560000000000002,4.390000000000001,9.450000000000003
+24725|Staffordshire Moorlands,24725,Staffordshire Moorlands,Karen Bradley,4110,2017-02-11,2020-10-28,Conservative,Conservative,England,473404006150443,Karen Bradley MP,1557,23.889999999999997,24.25,37.629999999999995
+24728|Blaenau Gwent,24728,Blaenau Gwent,Nick Smith,3928,2017-02-11,2020-10-28,Labour,Labour,Wales,253836764692893,Nick Smith MP,3030,40.089999999999996,36.76,28.61
+24729|South Staffordshire,24729,South Staffordshire,Gavin Williamson,4108,2017-02-11,2020-10-28,Conservative,Conservative,England,1524589031127606,Gavin Williamson,6050,41.07,44.470000000000006,56.49
+24731|Castle Point,24731,Castle Point,Rebecca Harris,3948,2017-02-11,2020-10-28,Conservative,Conservative,England,261148577323313,Rebecca Harris,5828,19.66,42.209999999999994,60.15
+24740|Vale of Glamorgan,24740,Vale of Glamorgan,Alun Cairns,4086,2017-02-11,2020-10-28,Conservative,Conservative,Wales,255568980598,Alun Cairns,5423,13.410000000000004,4.07,6.5
+24742|Stockton North,24742,Stockton North,Alex Cunningham,4122,2017-02-11,2020-10-28,Labour,Labour,England,125202177650537,Alex Cunningham MP,2408,21.15,20.400000000000006,2.5
+24743|Carmarthen East and Dinefwr,24743,Carmarthen East and Dinefwr,Jonathan Edwards,3943,2017-02-11,2020-10-28,Plaid Cymru,Independent,Wales,506849942658927,Jonathan Edwards AS/MP,2807,14.21,9.530000000000001,4.409999999999997
+24744|Folkestone and Hythe,24744,Folkestone and Hythe,Damian Collins,3986,2017-02-11,2020-10-28,Conservative,Conservative,England,477770722305669,Damian Collins,4373,25.080000000000002,26.179999999999996,36.17
+24745|Nuneaton,24745,Nuneaton,Marcus Jones,4024,2017-02-11,2020-10-28,Conservative,Conservative,England,396352797074234,Marcus Jones,2598,10.670000000000002,10.29,29.09
+24747|Tamworth,24747,Tamworth,Christopher Pincher,4075,2017-02-11,2020-10-28,Conservative,Conservative,England,11100014985,Christopher Pincher,2506,23.96,26.21,42.63
+24749|South Basildon and East Thurrock,24749,South Basildon and East Thurrock,Stephen Metcalfe,4092,2017-02-11,2020-10-28,Conservative,Conservative,England,1378475199062222,Stephen Metcalfe,682,16.869999999999997,24.39,43.980000000000004
+24759|Pendle,24759,Pendle,Andrew Stephenson,4044,2017-02-11,2020-10-28,Conservative,Conservative,England,308313479373888,Andrew Stephenson MP,8918,12.270000000000003,2.8500000000000014,13.909999999999997
+24760|Stafford,24760,Stafford,Jeremy Lefroy,4109,2017-02-11,2019-11-06,Conservative,Conservative,England,142026376065,Jeremy Lefroy,1052,18.819999999999997,14.880000000000003,28.11
+24762|Barnsley East,24762,Barnsley East,Michael Dugher,3916,2017-02-11,2017-05-03,Labour,Labour,England,135728143139420,Michael Dugher,1329,31.249999999999996,32.57,8.45
+24764|Blackpool North and Cleveleys,24764,Blackpool North and Cleveleys,Paul Maynard,3926,2017-02-11,2020-10-28,Conservative,Conservative,England,307082879098,Paul Maynard MP,5537,8.469999999999999,4.93,22.150000000000006
+24765|Bracknell,24765,Bracknell,Phillip Lee,3921,2017-02-11,2019-11-06,Conservative,Liberal Democrat,England,246765738703874,Doctor Phillip Lee,4183,38.900000000000006,28.610000000000003,55.53
+24766|Grantham and Stamford,24766,Grantham and Stamford,Nicholas Boles,3995,2017-02-11,2019-11-06,Conservative,Independent,England,521984534594291,Nick Boles,1310,35.31999999999999,35.5,46.43000000000001
+24769|South Derbyshire,24769,South Derbyshire,Heather Wheeler,4053,2017-02-11,2020-10-28,Conservative,Conservative,England,1598355537062417,Heather Wheeler MP,5262,22.6,22.740000000000002,36.22
+24771|Suffolk Coastal,24771,Suffolk Coastal,Therese Coffey,4098,2017-02-11,2020-10-28,Conservative,Conservative,England,348903995142018,Therese Coffey,2119,33.89,27.569999999999997,35.21000000000001
+24773|West Suffolk,24773,West Suffolk,Matthew Hancock,4070,2017-02-11,2020-10-28,Conservative,Conservative,England,522930704494653,Matt Hancock,23150,30.44,32.97,45.09
+24779|Tiverton and Honiton,24779,Tiverton and Honiton,Neil Parish,4072,2017-02-11,2020-10-28,Conservative,Conservative,England,165344071283,Neil Parish,1063,37.5,34.25,40.66
+24780|Bournemouth West,24780,Bournemouth West,Conor Burns,3922,2017-02-11,2020-10-28,Conservative,Conservative,England,755981037856291,Conor Burns,1218,29.71,17.32,22.08
+24782|East Hampshire,24782,East Hampshire,Damian Hinds,3969,2017-02-11,2020-10-28,Conservative,Conservative,England,920411391325701,Damian Hinds,2651,48.69,46.66,34.62
+24784|Harlow,24784,Harlow,Robert Halfon,3985,2017-02-11,2020-10-28,Conservative,Conservative,England,174730252601013,Robert Halfon MP,6134,18.87,15.68,32.41
+24785|West Worcestershire,24785,West Worcestershire,Harriett Baldwin,4107,2017-02-11,2020-10-28,Conservative,Conservative,England,532689836867079,Harriett Baldwin,2745,41.74,37.77,42.59
+24786|Wycombe,24786,Wycombe,Steven Baker,4064,2017-02-11,2020-10-28,Conservative,Conservative,England,119952671360838,Steve Baker,8491,28.879999999999995,12.299999999999997,7.699999999999996
+24787|Bedford,24787,Bedford,Richard Fuller,3912,2017-02-11,2017-05-03,Conservative,Conservative,England,796787923667917,Richard Fuller,2092,2.3799999999999955,1.6300000000000026,0.3100000000000023
+24787|North East Bedfordshire,24787,North East Bedfordshire,Richard Fuller,3912,2019-12-13,2020-10-28,Conservative,Conservative,England,796787923667917,Richard Fuller,2092,43.71,32.49,37.35
+"24788|Birmingham, Ladywood",24788,"Birmingham, Ladywood",Shabana Mahmood,3914,2017-02-11,2020-10-28,Labour,Labour,England,932644876819173,Shabana Mahmood,17296,60.88999999999999,69.50999999999999,67.86
+24790|Lincoln,24790,Lincoln,Karl McCartney,4028,2017-02-11,2020-10-28,Conservative,Conservative,England,379973742136545,Karl McCartney MP,1456,3.0799999999999983,3.1499999999999986,6.939999999999998
+24798|Scunthorpe,24798,Scunthorpe,Nicholas Dakin,4056,2017-02-11,2019-11-06,Labour,Labour,England,186874346397,Nic Dakin,6500,8.480000000000004,8.54,17.089999999999996
+24799|Carlisle,24799,Carlisle,John Stevenson,3942,2017-02-11,2020-10-28,Conservative,Conservative,England,1391851787702207,John Stevenson MP,1304,6.520000000000003,6.030000000000001,19.4
+24802|Crawley,24802,Crawley,Henry Smith,3960,2017-02-11,2020-10-28,Conservative,Conservative,England,1680876105515466,Henry Smith MP,7829,13.440000000000005,4.890000000000001,16.75
+24803|Dartford,24803,Dartford,Gareth Johnson,3970,2017-02-11,2020-10-28,Conservative,Conservative,England,1561234397446037,Gareth Johnson,1223,23.549999999999997,24.32,35.47
+24805|Makerfield,24805,Makerfield,Yvonne Fovargue,4034,2017-02-11,2020-10-28,Labour,Labour,England,152475088097981,Yvonne Fovargue,1315,29.37,28.85,10.71
+24808|Rochdale,24808,Rochdale,Simon Danczuk,4059,2017-02-11,2017-05-03,Labour,Labour,England,604021816402312,Simon Danczuk,4966,27.39,29.610000000000003,20.369999999999997
+24809|Romsey and Southampton North,24809,Romsey and Southampton North,Caroline Nokes,4048,2017-02-11,2020-10-28,Conservative,Conservative,England,383722574978742,Caroline Nokes,9093,36.64,35.89,21.159999999999997
+24816|Leicester West,24816,Leicester West,Liz Kendall,4026,2017-02-11,2020-10-28,Labour,Labour,England,1636238273271891,Liz Kendall,9371,20.860000000000003,29.480000000000004,12.11
+24817|Mid Norfolk,24817,Mid Norfolk,George Freeman,4020,2017-02-11,2020-10-28,Conservative,Conservative,England,240642849322249,George Freeman MP,2216,33.09,28.9,40.21
+24818|Newcastle upon Tyne North,24818,Newcastle upon Tyne North,Catherine McKinnell,4125,2017-02-11,2020-10-28,Labour,Labour,England,1032353066780968,Catherine McKinnell,7017,22.620000000000005,21.42,12.269999999999996
+24821|Mid Derbyshire,24821,Mid Derbyshire,Pauline Latham,4025,2017-02-11,2020-10-28,Conservative,Conservative,England,1522786574668386,Pauline Latham MP,1830,26.769999999999996,23.060000000000002,31.17
+24822|Stratford-on-Avon,24822,Stratford-on-Avon,Nadhim Zahawi,4113,2017-02-11,2020-10-28,Conservative,Conservative,England,332692041237,Nadhim Zahawi,3855,44.46,39.900000000000006,36.28
+24824|Wyre Forest,24824,Wyre Forest,Mark Robert Timothy Garnier,4074,2017-02-11,2020-10-28,Conservative,Conservative,England,342752769080981,Mark Garnier,2985,26.029999999999998,26.08,42.349999999999994
+"24825|Birmingham, Erdington",24825,"Birmingham, Erdington",Jack Dromey,3913,2017-02-11,2020-10-28,Labour,Labour,England,155137017871640,Jack Dromey MP,2838,14.779999999999998,19.57,10.219999999999999
+24826|Burton,24826,Burton,Andrew Griffiths,3936,2017-02-11,2019-11-06,Conservative,Conservative,England,111895182230456,Andrew Griffiths,5452,22.810000000000002,20.129999999999995,29.74
+24827|Hereford and South Herefordshire,24827,Hereford and South Herefordshire,Jesse Norman,3991,2017-02-11,2020-10-28,Conservative,Conservative,England,698329986850885,Jesse Norman,2388,35.74,29.740000000000002,39.650000000000006
+24829|South Northamptonshire,24829,South Northamptonshire,Andrea Leadsom,4117,2017-02-11,2020-10-28,Conservative,Conservative,England,272994259386528,Andrea Leadsom,29339,43.41,35.14,41.489999999999995
+24831|Wigan,24831,Wigan,Lisa Nandy,4082,2017-02-11,2020-10-28,Labour,Labour,England,194243072092,Lisa Nandy,15831,31.429999999999996,33.71,14.939999999999998
+24832|Brigg and Goole,24832,Brigg and Goole,Andrew Percy,3939,2017-02-11,2020-10-28,Conservative,Conservative,England,237088976355538,Andrew Percy MP,5205,25.830000000000002,27.439999999999998,50.55000000000001
+24837|Barrow and Furness,24837,Barrow and Furness,John Woodcock,3917,2017-02-11,2019-11-06,Labour/Co-operative,Independent,England,253928198013563,Lord Walney,3879,1.8299999999999983,0.4399999999999977,12.57
+24839|Salisbury,24839,Salisbury,John Glen,4051,2017-02-11,2020-10-28,Conservative,Conservative,England,100572766657394,John Glen MP,1380,40.27,32.510000000000005,36.739999999999995
+24840|Stroud,24840,Stroud,Neil Carmichael,4104,2017-02-11,2017-05-03,Conservative,Conservative,England,223432904485067,Neil Carmichael,553,8.0,1.0799999999999983,5.82
+24841|Daventry,24841,Daventry,Chris Heaton-Harris,3977,2017-02-11,2020-10-28,Conservative,Conservative,England,271017523056784,Chris Heaton-Harris MP,1747,40.1,39.04,45.42999999999999
+24843|South Swindon,24843,South Swindon,Robert Buckland,4106,2017-02-11,2020-10-28,Conservative,Conservative,England,189062924509477,Rt Hon Robert Buckland QC MP,3964,11.75,4.810000000000002,13.049999999999997
+24851|Leeds West,24851,Leeds West,Rachel Reeves,4031,2017-02-11,2020-10-28,Labour,Labour,England,388650307829032,Rachel Reeves,16791,27.91,37.809999999999995,26.229999999999997
+24852|Walsall South,24852,Walsall South,Valerie Vaz,4076,2017-02-11,2020-10-28,Labour,Labour,England,1377856039203101,Valerie Vaz MP,660,14.36,20.169999999999995,8.130000000000003
+24853|York Outer,24853,York Outer,Julian Sturdy,4079,2017-02-11,2020-10-28,Conservative,Conservative,England,164989570358629,Julian Sturdy MP,691,24.359999999999996,14.439999999999998,18.04
+24854|Bromsgrove,24854,Bromsgrove,Sajid Javid,3945,2017-02-11,2020-10-28,Conservative,Conservative,England,179373355424859,Sajid Javid,21316,31.64,30.669999999999998,42.58
+24860|Rossendale and Darwen,24860,Rossendale and Darwen,Jake Berry,4060,2017-02-11,2020-10-28,Conservative,Conservative,England,227817900673886,Jake Berry MP,8262,11.530000000000001,6.410000000000004,19.5
+24862|Worcester,24862,Worcester,Robin Walker,4091,2017-02-11,2020-10-28,Conservative,Conservative,England,1451563805111255,Robin Walker MP,571,11.36,4.850000000000001,13.279999999999994
+24863|Croydon Central,24863,Croydon Central,Gavin Barwell,3955,2017-02-11,2017-05-03,Conservative,Conservative,England,166383573407226,Gavin Barwell,3437,0.30999999999999517,9.899999999999999,11.009999999999998
+24866|Northampton North,24866,Northampton North,Michael Ellis,4116,2017-02-11,2020-10-28,Conservative,Conservative,England,216239545220073,Michael Ellis MP,2223,8.229999999999997,2.0,13.93
+24870|North Swindon,24870,North Swindon,Justin Tomlinson,4105,2017-02-11,2020-10-28,Conservative,Conservative,England,173310676079770,Justin Tomlinson,4227,22.56,15.18,29.339999999999996
+24871|Chatham and Aylesford,24871,Chatham and Aylesford,Tracey Crouch,3950,2017-02-11,2020-10-28,Conservative,Conservative,England,270184573118533,Tracey Crouch,5801,26.59,23.299999999999997,29.659999999999997
+24872|Edinburgh South,24872,Edinburgh South,Ian Murray,3966,2017-02-11,2020-10-28,Labour,Labour,Scotland,483770125073467,Ian Murray,5107,5.350000000000001,32.42999999999999,22.31
+24873|Gosport,24873,Gosport,Caroline Dinenage,4008,2017-02-11,2020-10-28,Conservative,Conservative,England,666637086783038,Caroline Dinenage,4520,35.870000000000005,34.79,48.040000000000006
+24875|South East Cornwall,24875,South East Cornwall,Sheryll Murray,4100,2017-02-11,2020-10-28,Conservative,Conservative,England,821554321230730,Sheryll Murray MP,3328,33.66,32.769999999999996,39.08
+24877|Bury North,24877,Bury North,David Nuttall,4140,2017-02-11,2017-05-03,Conservative,Conservative,England,725301007499330,David Nuttall,853,0.8299999999999983,9.130000000000003,0.21999999999999886
+24878|Selby and Ainsty,24878,Selby and Ainsty,Nigel Adams,4057,2017-02-11,2020-10-28,Conservative,Conservative,England,488552847937440,Nigel Adams,3429,25.68,24.560000000000002,35.7
+24879|Great Yarmouth,24879,Great Yarmouth,Brandon Lewis,4009,2017-02-11,2020-10-28,Conservative,Conservative,England,631521366944793,Brandon Lewis,6579,13.84,18.060000000000002,40.64000000000001
+24880|Rugby,24880,Rugby,Mark Pawsey,4052,2017-02-11,2020-10-28,Conservative,Conservative,England,485987098172807,Mark Pawsey MP,1118,21.110000000000003,15.990000000000002,26.419999999999998
+24888|Stevenage,24888,Stevenage,Stephen McPartland,4093,2017-02-11,2020-10-28,Conservative,Conservative,England,193728807328242,Stephen McPartland,1435,10.36,6.8600000000000065,17.96
+24891|Bristol North West,24891,Bristol North West,Charlotte Leslie,3933,2017-02-11,2017-05-03,Conservative,Conservative,England,185893714927054,Charlotte Leslie,5018,9.550000000000004,8.799999999999997,10.18
+24893|Elmet and Rothwell,24893,Elmet and Rothwell,Alec Shelbrooke,3997,2017-02-11,2020-10-28,Conservative,Conservative,England,449572738488186,Alec Shelbrooke MP,1965,14.689999999999998,16.46,29.8
+24896|Stretford and Urmston,24896,Stretford and Urmston,Kate Green,4120,2017-02-11,2020-10-28,Labour,Labour,England,329876810499233,Kate Green,6613,25.2,39.260000000000005,32.790000000000006
+24897|Wirral South,24897,Wirral South,Alison McGovern,4083,2017-02-11,2020-10-28,Labour,Labour,England,524096984361796,Alison McGovern,2905,10.990000000000002,16.57,14.020000000000003
+24901|Winchester,24901,Winchester,Steve Brine,4067,2017-02-11,2020-10-28,Conservative,Conservative,England,245990448763142,Steve Brine MP,3776,30.57,17.489999999999995,1.6799999999999997
+24902|Reading West,24902,Reading West,Alok Sharma,4014,2017-02-11,2020-10-28,Conservative,Conservative,England,180021685374062,Alok Sharma,1788,13.739999999999995,5.559999999999995,8.169999999999995
+24904|Waveney,24904,Waveney,Peter Aldous,4069,2017-02-11,2020-10-28,Conservative,Conservative,England,523570101090811,Peter Aldous,1068,4.6200000000000045,17.479999999999997,35.209999999999994
+24905|Sefton Central,24905,Sefton Central,Bill Esterson,4061,2017-02-11,2020-10-28,Labour,Labour,England,578403418881070,Bill Esterson MP,5107,24.160000000000004,29.990000000000002,29.72
+24907|Beckenham,24907,Beckenham,Bob Stewart,3919,2017-02-11,2020-10-28,Conservative,Conservative,England,1431412443820085,Bob Stewart,4031,37.85,29.22,28.2
+24909|Sherwood,24909,Sherwood,Mark Spencer,4055,2017-02-11,2020-10-28,Conservative,Conservative,England,109194469168681,Mark Spencer,5389,9.170000000000002,9.740000000000002,30.699999999999996
+"24910|Brighton, Pavilion",24910,"Brighton, Pavilion",Caroline Lucas,3930,2017-02-11,2020-10-28,Green,Green,England,8948360263,Caroline Lucas,97875,14.569999999999997,25.479999999999997,34.379999999999995
+24911|Richmond Park,24911,Richmond Park,Zac Goldsmith,4062,2017-06-09,2019-11-06,Conservative,Conservative,England,311126315707480,Zac Goldsmith,94316,38.94,0.07000000000000028,11.93
+24912|Newton Abbot,24912,Newton Abbot,Anne Marie Morris,4249,2017-02-11,2020-10-28,Conservative,Conservative,England,377544675719940,Anne Marie Morris MP,4769,23.529999999999998,33.36,33.3
+24916|North East Cambridgeshire,24916,North East Cambridgeshire,Steve Barclay,4095,2017-02-11,2020-10-28,Conservative,Conservative,England,162093607178215,Steve Barclay,3329,32.59,39.92,56.629999999999995
+24920|Gillingham and Rainham,24920,Gillingham and Rainham,Rehman Chishti,3987,2017-02-11,2020-10-28,Conservative,Conservative,England,163646992503,Rehman Chishti,6684,22.359999999999996,19.299999999999997,32.9
+24929|Stalybridge and Hyde,24929,Stalybridge and Hyde,Jonathan Reynolds,4119,2017-02-11,2020-10-28,Labour/Co-operative,Labour/Co-operative,England,399509303582784,Jonathan Reynolds MP,8308,16.3,19.04,6.949999999999996
+24933|Camborne and Redruth,24933,Camborne and Redruth,George Eustice,3934,2017-02-11,2020-10-28,Conservative,Conservative,England,178560012325019,George Eustice,3508,15.269999999999996,3.259999999999998,17.28
+24934|Finchley and Golders Green,24934,Finchley and Golders Green,Mike Freer,4004,2017-02-11,2020-10-28,Conservative,Conservative,England,200214566704189,Mike Freer MP,1448,11.159999999999997,3.1700000000000017,11.900000000000002
+"24935|Liverpool, Walton",24935,"Liverpool, Walton",Steve Rotheram,4035,2017-02-11,2017-05-03,Labour,Labour,England,1548601745394948,Steve Rotheram,10859,72.33,77.14,74.83000000000001
+24938|Portsmouth North,24938,Portsmouth North,Penny Mordaunt,4017,2017-02-11,2020-10-28,Conservative,Conservative,England,52386867122,Penny Mordaunt MP,11735,23.26,21.11,34.370000000000005
+24941|South West Norfolk,24941,South West Norfolk,Elizabeth Truss,4097,2017-02-11,2020-10-28,Conservative,Conservative,England,1543010275957455,Elizabeth Truss,5865,27.66,34.94,50.89999999999999
+24943|Sheffield Central,24943,Sheffield Central,Paul Blomfield,4058,2017-02-11,2020-10-28,Labour,Labour,England,153297006733,Paul Blomfield MP,4864,39.19,57.959999999999994,53.57
+24945|Harrow East,24945,Harrow East,Bob Blackman,4005,2017-02-11,2020-10-28,Conservative,Conservative,England,1388239791415306,Bob Blackman,5212,9.71,3.450000000000003,16.5
+24947|Milton Keynes South,24947,Milton Keynes South,Iain Stewart,4015,2017-02-11,2020-10-28,Conservative,Conservative,England,550112551788526,Iain Stewart,1744,14.71,2.6700000000000017,10.850000000000001
+24948|Truro and Falmouth,24948,Truro and Falmouth,Sarah Newton,4071,2017-02-11,2019-11-06,Conservative,Conservative,England,208396769361693,Sarah Newton,2177,27.16,6.690000000000005,7.710000000000001
+24949|Walthamstow,24949,Walthamstow,Stella Creasy,4088,2017-02-11,2020-10-28,Labour/Co-operative,Labour/Co-operative,England,7916859303,Stella Creasy,22942,55.5,66.50999999999999,63.849999999999994
+24950|Streatham,24950,Streatham,Chuka Umunna,4128,2017-02-11,2019-11-06,Labour,Liberal Democrat,England,22625199708,Chuka Umunna,74871,27.910000000000004,47.11,31.3
+24955|Hendon,24955,Hendon,Matthew Offord,4006,2017-02-11,2020-10-28,Conservative,Conservative,England,324070087738168,Matthew Offord MP,2064,7.5,2.0500000000000043,7.68
+24957|Thurrock,24957,Thurrock,Jackie Doyle-Price,4065,2017-02-11,2020-10-28,Conservative,Conservative,England,356313984489304,Jackie Doyle-Price,5191,1.0799999999999983,0.6799999999999997,24.190000000000005
+24958|Bethnal Green and Bow,24958,Bethnal Green and Bow,Rushanara Ali,4138,2017-02-11,2020-10-28,Labour,Labour,England,37684209618,Rushanara Ali,776920,45.95,59.52,61.959999999999994
+24959|Warwick and Leamington,24959,Warwick and Leamington,Chris White,4114,2017-02-11,2017-05-03,Conservative,Conservative,England,295363753921281,Chris White,546,13.059999999999995,2.230000000000004,1.4600000000000009
+24961|Skipton and Ripon,24961,Skipton and Ripon,Julian Smith,4118,2017-02-11,2020-10-28,Conservative,Conservative,England,169944884086,Julian Smith MP,1767,38.05,34.37,40.35
+24962|Hexham,24962,Hexham,Guy Opperman,4142,2017-02-11,2020-10-28,Conservative,Conservative,England,749047081829001,Guy Opperman MP,5064,27.759999999999998,19.989999999999995,22.86
+24964|Penrith and The Border,24964,Penrith and The Border,Rory Stewart,4137,2017-02-11,2019-11-06,Conservative,Independent,England,20122665736,Rory Stewart,21268,45.3,34.24,38.730000000000004
+24966|Morecambe and Lunesdale,24966,Morecambe and Lunesdale,David Morris,4135,2017-02-11,2020-10-28,Conservative,Conservative,England,403912456334555,David Morris MP,2153,10.619999999999997,3.0700000000000003,14.019999999999996
+25034|Oldham East and Saddleworth,25034,Oldham East and Saddleworth,Debbie Abrahams,4212,2017-02-11,2020-10-28,Labour,Labour,England,1398645723703895,Debbie Abrahams,4896,13.499999999999996,17.4,3.239999999999995
+25067|Barnsley Central,25067,Barnsley Central,Dan Jarvis,4243,2017-02-11,2020-10-28,Labour,Labour,England,189845211183530,Dan Jarvis,18131,34.01,39.769999999999996,9.679999999999996
+25150|Feltham and Heston,25150,Feltham and Heston,Seema Malhotra,4253,2017-02-11,2020-10-28,Labour/Co-operative,Labour/Co-operative,England,660093150703108,Seema Malhotra,8003,23.200000000000003,29.43,16.439999999999998
+25165|Manchester Central,25165,Manchester Central,Lucy Powell,4263,2017-02-11,2020-10-28,Labour/Co-operative,Labour/Co-operative,England,332136673518819,Lucy Powell MP,4374,46.6,63.239999999999995,55.63
+25166|Cardiff South and Penarth,25166,Cardiff South and Penarth,Stephen Doughty,4264,2017-02-11,2020-10-28,Labour/Co-operative,Labour/Co-operative,Wales,215232008599719,Stephen Doughty MP,9172,15.970000000000002,29.3,25.19
+25220|Wythenshawe and Sale East,25220,Wythenshawe and Sale East,Mike Kane,4316,2017-02-11,2020-10-28,Labour,Labour,England,882269181811610,Mike Kane,836,24.43,32.599999999999994,23.199999999999996
+25227|Newark,25227,Newark,Robert Jenrick,4320,2017-02-11,2020-10-28,Conservative,Conservative,England,653564898026485,Robert Jenrick,3997,35.32,32.980000000000004,39.9
+25268|Kilmarnock and Loudoun,25268,Kilmarnock and Loudoun,Alan Brown,4470,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,626888617416986,Alan Brown MP,2773,25.309999999999995,13.480000000000004,26.580000000000002
+25269|Paisley and Renfrewshire South,25269,Paisley and Renfrewshire South,Mhairi Black,4421,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,628391733956960,Mhairi Black MP,222945,12.299999999999997,6.090000000000003,24.79
+25270|Dundee West,25270,Dundee West,Chris Law,4403,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,373827842789723,Chris Law MP,9779,38.22,13.61,29.490000000000002
+25271|Falkirk,25271,Falkirk,John McNally,4424,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,934482966563520,John McNally MP,2428,32.65,9.149999999999999,26.75
+25272|Fareham,25272,Fareham,Suella Fernandes,4475,2017-02-11,2020-10-28,Conservative,Conservative,England,738075429643287,Suella Braverman MP,3700,40.69,37.8,45.56
+25273|Glenrothes,25273,Glenrothes,Peter Grant,4466,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,357146467811057,Peter Grant MP,4430,29.2,8.089999999999996,28.3
+25274|Ochil and South Perthshire,25274,Ochil and South Perthshire,Tasmina Ahmed-Sheikh,4427,2017-02-11,2017-05-03,Scottish National Party,Scottish National Party,Scotland,595930427204715,Tasmina Ahmed-Sheikh,24024,17.57,6.199999999999996,7.780000000000001
+25275|West Dunbartonshire,25275,West Dunbartonshire,Martin Docherty,4374,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,1022409794455334,Martin Docherty-Hughes MP,5458,27.709999999999997,5.190000000000005,21.14
+"25276|East Kilbride, Strathaven and Lesmahagow",25276,"East Kilbride, Strathaven and Lesmahagow",Lisa Cameron,4412,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,337384159797886,Dr Lisa Cameron MP,5677,27.300000000000004,7.149999999999999,23.650000000000002
+25277|Motherwell and Wishaw,25277,Motherwell and Wishaw,Marion Fellows,4440,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,28642546631,Marion Fellows MP,4395,24.66,0.7600000000000051,14.119999999999997
+25278|Midlothian,25278,Midlothian,Owen Thompson,4482,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,725716844185985,Owen Thompson MP,2372,20.390000000000004,1.9500000000000028,11.829999999999998
+25281|East Dunbartonshire,25281,East Dunbartonshire,John Nicolson,4415,2017-02-11,2017-05-03,Scottish National Party,Scottish National Party,Scotland,1623046827924197,John Nicolson MP,3212,3.9499999999999957,10.299999999999997,0.28999999999999915
+25281|Ochil and South Perthshire,25281,Ochil and South Perthshire,John Nicolson,4415,2019-12-13,2020-10-28,Scottish National Party,Scottish National Party,Scotland,1623046827924197,John Nicolson MP,3212,17.57,6.199999999999996,7.780000000000001
+25282|Brecon and Radnorshire,25282,Brecon and Radnorshire,Chris Davies,4376,2017-02-11,2019-06-21,Conservative,Conservative,Wales,615738725140356,Chris Davies,2740,12.730000000000004,19.439999999999998,17.259999999999998
+25283|Burnley,25283,Burnley,Julie Cooper,4405,2017-02-11,2019-11-06,Labour,Labour,England,132837613555500,Julie Cooper,1320,8.169999999999998,15.770000000000003,3.460000000000001
+25284|Ealing Central and Acton,25284,Ealing Central and Acton,Rupa Huq,4511,2017-02-11,2020-10-28,Labour,Labour,England,1381200552113647,Dr Rupa Huq for Ealing Central and Acton,136349,0.5399999999999991,24.950000000000003,24.27
+25285|Havant,25285,Havant,Alan Mak,4484,2017-02-11,2020-10-28,Conservative,Conservative,England,1498881147066399,Alan Mak MP,2215,31.049999999999997,34.45,47.42
+25286|Kirkcaldy and Cowdenbeath,25286,Kirkcaldy and Cowdenbeath,Roger Mullin,4468,2017-02-11,2017-05-03,Scottish National Party,Scottish National Party,Scotland,971614016234199,Roger Mullin,2728,18.849999999999994,0.5600000000000023,2.6499999999999986
+25287|Rutherglen and Hamilton West,25287,Rutherglen and Hamilton West,Margaret Ferrier,4386,2017-02-11,2020-10-28,Scottish National Party,Independent,Scotland,1584630045114846,Margaret Ferrier MP,3538,17.309999999999995,0.519999999999996,9.730000000000004
+25288|Inverclyde,25288,Inverclyde,Ronnie Cowan,4465,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,1524251411157808,Ronnie Cowan MP,3991,24.8,0.9799999999999969,18.849999999999998
+25289|Merthyr Tydfil and Rhymney,25289,Merthyr Tydfil and Rhymney,Gerald Jones,4501,2017-02-11,2020-10-28,Labour,Labour,Wales,747702261981584,Gerald Jones MP,1804,35.2,48.699999999999996,32.89
+25290|North Warwickshire,25290,North Warwickshire,Craig Tracey,4509,2017-02-11,2020-10-28,Conservative,Conservative,England,778321938887070,Craig Tracey MP,1985,6.269999999999996,18.03,39.11
+25291|Paisley and Renfrewshire North,25291,Paisley and Renfrewshire North,Gavin Newlands,4420,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,593955894074649,Gavin Newlands MP,8882,17.979999999999997,5.610000000000003,23.95
+25292|Vale of Clwyd,25292,Vale of Clwyd,James Davies,4476,2017-02-11,2020-10-28,Conservative,Conservative,Wales,181951548628397,Dr James Davies MP,2573,0.6700000000000017,6.149999999999999,4.769999999999996
+25293|Airdrie and Shotts,25293,Airdrie and Shotts,Neil Gray,4365,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,1580633408837996,Neil Gray MP,4389,19.83,0.519999999999996,13.079999999999998
+25294|East Renfrewshire,25294,East Renfrewshire,Kirsten Oswald,4413,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,667427310036806,Kirsten Oswald MP,8448,6.560000000000002,8.77,9.799999999999997
+25295|Lanark and Hamilton East,25295,Lanark and Hamilton East,Angela Crawley,4469,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,404900139669473,Angela Crawley MP,4856,18.28,0.5300000000000011,9.769999999999996
+25296|Stirling,25296,Stirling,Steven Paterson,4392,2017-02-11,2017-05-03,Scottish National Party,Scottish National Party,Scotland,368828786632197,Steven Paterson SNP,3312,20.099999999999998,0.30000000000000426,17.58
+25297|Aberavon,25297,Aberavon,Stephen Kinnock,4359,2017-02-11,2020-10-28,Labour,Labour,Wales,707090445994745,Stephen Kinnock,3548,33.129999999999995,50.38000000000001,33.2
+25298|Blackburn,25298,Blackburn,Kate Hollern,4363,2017-02-11,2020-10-28,Labour,Labour,England,484624271641781,"Kate Hollern, MP for Blackburn",2123,29.0,42.87,40.91
+25299|Glasgow North,25299,Glasgow North,Patrick Grady,4432,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,1497428263868932,Patrick Grady MP,2851,25.169999999999998,3.1600000000000037,15.470000000000002
+25300|North Ayrshire and Arran,25300,North Ayrshire and Arran,Patricia Gibson,4435,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,321010964762603,Patricia Gibson MP,4204,25.200000000000003,7.66,17.689999999999998
+"25301|Cumbernauld, Kilsyth and Kirkintilloch East",25301,"Cumbernauld, Kilsyth and Kirkintilloch East",Stuart McDonald,4393,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,981195631909269,Stuart McDonald MP,3314,29.87,9.719999999999999,28.400000000000002
+25302|Dwyfor Meirionnydd,25302,Dwyfor Meirionnydd,Liz Saville-Roberts,4521,2017-02-11,2020-10-28,Plaid Cymru,Plaid Cymru,Wales,517210481733634,Liz Saville Roberts AS/MP,5827,18.200000000000003,15.98,15.840000000000003
+25304|Cardiff Central,25304,Cardiff Central,Jo Stevens,4425,2017-02-11,2020-10-28,Labour,Labour,Wales,616519808361378,Jo Stevens,3804,12.889999999999997,42.599999999999994,41.07
+25305|Dunfermline and West Fife,25305,Dunfermline and West Fife,Douglas Chapman,4402,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,329094240615173,Douglas Chapman MP,4012,18.520000000000003,1.6500000000000057,20.0
+25307|Linlithgow and East Falkirk,25307,Linlithgow and East Falkirk,Martyn Day,4488,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,288109744732656,Martyn Day MP,6793,21.0,5.210000000000001,19.499999999999996
+25309|Bootle,25309,Bootle,Peter Dowd,4397,2017-02-11,2020-10-28,Labour,Labour,England,1552528865019331,Peter Dowd,1580,63.56999999999999,71.98,70.27
+25310|Dulwich and West Norwood,25310,Dulwich and West Norwood,Helen Hayes,4510,2017-02-11,2020-10-28,Labour,Labour,England,212406495618778,Helen Hayes,1343,31.39,50.150000000000006,48.97
+25313|Redcar,25313,Redcar,Anna Turley,4449,2017-02-11,2019-11-06,Labour/Co-operative,Labour/Co-operative,England,108283675982010,Anna Turley,9799,25.39,22.29,8.619999999999997
+25314|Aberdeen North,25314,Aberdeen North,Kirsty Blackman,4357,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,606024792836981,Kirsty Blackman MP,4360,30.49,11.260000000000002,33.87
+25316|Chippenham,25316,Chippenham,Michelle Donelan,4530,2017-02-11,2020-10-28,Conservative,Conservative,England,273467342787874,Michelle Donelan MP,4894,18.180000000000003,29.099999999999998,19.770000000000003
+25318|Central Ayrshire,25318,Central Ayrshire,Philippa Whitford,4385,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,726101234152407,Dr Philippa Whitford SNP MP,8763,26.76,2.8100000000000023,11.399999999999999
+25320|Ilford North,25320,Ilford North,Wes Streeting,4504,2017-02-11,2020-10-28,Labour,Labour,England,177717252277852,Wes Streeting,7704,1.2000000000000028,18.21,10.410000000000004
+25321|St Helens South and Whiston,25321,St Helens South and Whiston,Marie Rimmer,4457,2017-02-11,2020-10-28,Labour,Labour,England,1467585030120854,Marie Rimmer MP,1630,43.9,46.03,38.01
+25322|Glasgow South,25322,Glasgow South,Stewart McDonald,4461,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,829281410428713,Stewart McDonald MP,7058,25.16,4.550000000000004,18.979999999999997
+25323|Hertsmere,25323,Hertsmere,Oliver Dowden,4441,2017-02-11,2020-10-28,Conservative,Conservative,England,824740377593403,Oliver Dowden,2503,36.61,32.44,40.83
+25324|North East Fife,25324,North East Fife,Stephen Gethins,4434,2017-02-11,2019-11-06,Scottish National Party,Scottish National Party,Scotland,1532665740317736,Stephen Gethins SNP,4851,9.590000000000003,0.0,2.8699999999999974
+25325|East Lothian,25325,East Lothian,George Kerevan,4416,2017-02-11,2017-05-03,Scottish National Party,Scottish National Party,Scotland,554391358029064,George Kerevan for East Lothian,4790,11.529999999999998,5.52,6.649999999999995
+25326|Bermondsey and Old Southwark,25326,Bermondsey and Old Southwark,Neil Coyle,4368,2017-02-11,2020-10-28,Labour,Labour,England,978189968857984,Neil Coyle MP,3433,8.729999999999997,22.17,27.509999999999998
+25327|Glasgow Central,25327,Glasgow Central,Alison Thewliss,4430,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,1016031405077696,Alison Thewliss MP,5361,19.490000000000002,6.299999999999997,16.15
+25328|Hornsey and Wood Green,25328,Hornsey and Wood Green,Catherine West,4523,2017-02-11,2020-10-28,Labour,Labour,England,522395934483552,Catherine West MP,4237,19.139999999999997,49.35000000000001,31.49
+25331|Sutton and Cheam,25331,Sutton and Cheam,Paul Scully,4414,2017-02-11,2020-10-28,Conservative,Conservative,England,479504198751798,Paul Scully,4581,7.850000000000001,24.429999999999996,13.279999999999998
+25332|Neath,25332,Neath,Christina Rees,4525,2017-02-11,2020-10-28,Labour,Labour/Co-operative,Wales,444944842319729,Christina Rees MP,831,25.71,32.99,15.330000000000002
+25333|Twickenham,25333,Twickenham,Tania Mathias,4404,2017-02-11,2017-05-03,Conservative,Conservative,England,653747911303794,Dr Tania Mathias,8288,3.259999999999998,14.719999999999999,21.89
+25334|Bath,25334,Bath,Ben Howlett,4445,2017-02-11,2017-05-03,Conservative,Conservative,England,136874086417641,Ben Howlett,2756,8.130000000000003,11.490000000000002,23.639999999999997
+25335|Eastbourne,25335,Eastbourne,Caroline Ansell,4512,2017-02-11,2020-10-28,Conservative,Conservative,England,217973455052003,Caroline Ansell,3768,1.3900000000000006,2.799999999999997,7.850000000000001
+25336|Edinburgh North and Leith,25336,Edinburgh North and Leith,Deidre Brock,4417,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,484307125043871,Deidre Brock MP,2300,9.649999999999999,2.8800000000000026,21.589999999999996
+25338|Torbay,25338,Torbay,Kevin Foster,4451,2017-02-11,2020-10-28,Conservative,Conservative,England,543502699091214,Kevin Foster,2227,6.829999999999998,27.91,35.2
+25340|Cheltenham,25340,Cheltenham,Alex Chalk,4481,2017-02-11,2020-10-28,Conservative,Conservative,England,555226237822956,Alex Chalk,3865,12.120000000000005,4.5,1.6499999999999986
+25341|Edinburgh East,25341,Edinburgh East,Tommy Sheppard,4453,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,1525742567673804,Tommy Sheppard MP,11929,19.330000000000002,7.8700000000000045,21.790000000000003
+25342|Aldridge-Brownhills,25342,Aldridge-Brownhills,Wendy Morton,4358,2017-02-11,2020-10-28,Conservative,Conservative,England,1400914330212442,Wendy Morton MP,1536,29.679999999999996,35.559999999999995,50.42
+25343|Brentford and Isleworth,25343,Brentford and Isleworth,Ruth Cadbury,4389,2017-02-11,2020-10-28,Labour,Labour,England,394377393942780,Ruth Cadbury,2580,0.8200000000000003,19.760000000000005,18.03
+"25345|Southampton, Itchen",25345,"Southampton, Itchen",Royston Smith,4478,2017-02-11,2020-10-28,Conservative,Conservative,England,272988209443,Royston Smith MP,2198,5.18,0.07000000000000028,9.489999999999995
+25349|Wirral West,25349,Wirral West,Margaret Greenwood,4400,2017-02-11,2020-10-28,Labour,Labour,England,509310609166206,Margaret Greenwood,2685,1.0,12.209999999999994,7.0
+25350|Cannock Chase,25350,Cannock Chase,Amanda Milling,4454,2017-02-11,2020-10-28,Conservative,Conservative,England,1470980403159554,Amanda Milling MP,5973,10.46,17.529999999999994,42.92
+25351|Dumfries and Galloway,25351,Dumfries and Galloway,Richard Arkless,4387,2017-02-11,2017-05-03,Scottish National Party,Scottish National Party,Scotland,308776232652090,Richard Arkless SNP,6959,11.509999999999998,10.93,3.509999999999998
+25352|Edinburgh West,25352,Edinburgh West,Michelle Thomson,4422,2017-02-11,2017-05-03,Independent,Independent,Scotland,664574940330469,Michelle Thomson,2566,5.850000000000001,5.659999999999997,6.909999999999997
+25354|Wealden,25354,Wealden,Nusrat Ghani,4460,2017-02-11,2020-10-28,Conservative,Conservative,England,1585589638380055,Nus Ghani MP,2633,40.28,39.08,42.120000000000005
+25356|Norwich South,25356,Norwich South,Clive Lewis,4500,2017-02-11,2020-10-28,Labour,Labour,England,191335640943251,Clive Lewis MP,26902,15.790000000000003,30.36,24.689999999999998
+"25357|Sheffield, Heeley",25357,"Sheffield, Heeley",Louise Haigh,4473,2017-02-11,2020-10-28,Labour,Labour,England,386427418234901,Louise Haigh MP,8307,30.800000000000004,31.259999999999998,19.959999999999997
+25359|Bolton West,25359,Bolton West,Chris Green,4398,2017-02-11,2020-10-28,Conservative,Conservative,England,249684318543741,Chris Green,5472,1.6500000000000057,1.8399999999999963,17.97
+25360|Hazel Grove,25360,Hazel Grove,William Wragg,4429,2017-02-11,2020-10-28,Conservative,Conservative,England,475793402492671,William Wragg MP,2235,15.160000000000004,12.5,9.990000000000002
+"25361|Ross, Skye and Lochaber",25361,"Ross, Skye and Lochaber",Ian Blackford,4390,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,660069334114898,Ian Blackford,29146,12.259999999999998,15.399999999999999,23.69
+25362|Dudley South,25362,Dudley South,Mike Wood,4384,2017-02-11,2020-10-28,Conservative,Conservative,England,723551841046614,Mike Wood MP,1612,11.18,20.21,42.56
+25363|Eddisbury,25363,Eddisbury,Antoinette Sandbach,4506,2017-02-11,2019-11-06,Conservative,Independent,England,1460263774280110,Antoinette Sandbach,1577,27.4,23.270000000000003,34.81
+"25364|Birmingham, Yardley",25364,"Birmingham, Yardley",Jess Phillips,4370,2017-02-11,2020-10-28,Labour,Labour,England,415209345325893,Jess Phillips,16949,16.019999999999996,37.24,24.98
+25365|Edmonton,25365,Edmonton,Kate Osamor,4515,2017-02-11,2020-10-28,Labour/Co-operative,Labour/Co-operative,England,775903505841281,Kate Osamor,5077,37.3,48.34,39.699999999999996
+"25366|Manchester, Withington",25366,"Manchester, Withington",Jeff Smith,4456,2017-02-11,2020-10-28,Labour,Labour,England,385575734873331,Jeff Smith MP,2100,29.759999999999998,55.730000000000004,52.66
+"25367|Plymouth, Moor View",25367,"Plymouth, Moor View",Johnny Mercer,4485,2017-02-11,2020-10-28,Conservative,Conservative,England,938126169534790,Johnny Mercer,30665,2.4100000000000037,11.049999999999997,29.15
+25370|Argyll and Bute,25370,Argyll and Bute,Brendan O'Hara,4371,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,1511551585765011,Brendan O’Hara MP,5341,16.33,2.759999999999998,8.560000000000002
+25372|Somerton and Frome,25372,Somerton and Frome,David Warburton,4526,2017-02-11,2020-10-28,Conservative,Conservative,England,499802840066192,David Warburton MP,2624,33.6,36.019999999999996,29.61
+25373|Thornbury and Yate,25373,Thornbury and Yate,Luke Hall,4450,2017-02-11,2020-10-28,Conservative,Conservative,England,581176261969765,Luke Hall MP,3200,3.0800000000000054,23.81,23.68
+25374|Tonbridge and Malling,25374,Tonbridge and Malling,Thomas Tugendhat,4462,2017-02-11,2020-10-28,Conservative,Conservative,England,386537564854222,Tom Tugendhat,9091,44.22,41.31,47.27
+25376|Braintree,25376,Braintree,James Cleverly,4366,2017-02-11,2020-10-28,Conservative,Conservative,England,283560961748679,James Cleverly,6942,35.02,35.2,48.86
+25377|Croydon South,25377,Croydon South,Chris Philp,4503,2017-02-11,2020-10-28,Conservative,Conservative,England,1540152786230577,Chris Philp,2094,29.700000000000003,18.620000000000005,20.790000000000003
+25378|Ellesmere Port and Neston,25378,Ellesmere Port and Neston,Justin Madders,4418,2017-02-11,2020-10-28,Labour,Labour,England,1473622616203527,Justin Madders,6965,13.43,22.36,17.980000000000004
+25379|Greenwich and Woolwich,25379,Greenwich and Woolwich,Matthew Pennycook,4520,2017-02-11,2020-10-28,Labour,Labour,England,716062691757311,Matthew Pennycook,3186,25.580000000000002,39.010000000000005,34.75
+25381|Mid Worcestershire,25381,Mid Worcestershire,Nigel Huddleston,4407,2017-02-11,2020-10-28,Conservative,Conservative,England,412988872182704,Nigel Huddleston MP,1512,39.36,42.34,49.92999999999999
+"25382|Inverness, Nairn, Badenoch and Strathspey",25382,"Inverness, Nairn, Badenoch and Strathspey",Drew Hendry,4467,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,904819546225376,Drew Hendry MP,9042,18.759999999999998,9.329999999999998,19.05
+25383|North Cornwall,25383,North Cornwall,Scott Mann,4496,2017-02-11,2020-10-28,Conservative,Conservative,England,601605716588028,Scott Mann,4171,13.739999999999998,14.130000000000003,28.55
+25384|Yeovil,25384,Yeovil,Marcus Fysh,4446,2017-02-11,2020-10-28,Conservative,Conservative,England,1405406096341441,Marcus Fysh MP,2672,9.300000000000004,24.78,27.31
+25385|Bradford West,25385,Bradford West,Naseem Shah,4409,2017-02-11,2020-10-28,Labour,Labour,England,1411716462462188,Naz Shah MP,26848,28.34,48.1,61.04
+25386|Cambridge,25386,Cambridge,Daniel Zeichner,4382,2017-02-11,2020-10-28,Labour,Labour,England,373041482865096,Daniel Zeichner,2309,1.1499999999999986,22.639999999999997,17.939999999999998
+25387|Corby,25387,Corby,Tom Pursglove,4369,2017-02-11,2020-10-28,Conservative,Conservative,England,202689703243183,Tom Pursglove MP,2631,4.300000000000004,5.1100000000000065,16.980000000000004
+25388|Solihull,25388,Solihull,Julian Knight,4410,2017-02-11,2020-10-28,Conservative,Conservative,England,442740182467601,Julian Knight MP,1182,23.55,36.25,38.44
+25391|Leeds East,25391,Leeds East,Richard Burgon,4493,2017-02-11,2020-10-28,Labour,Labour,England,475262749270599,Richard Burgon for East Leeds,1212,32.81,30.77,14.160000000000004
+25392|Meon Valley,25392,Meon Valley,Flick Drummond,4459,2019-12-13,2020-10-28,Conservative,Conservative,England,50118509705,Flick Drummond,2031,46.24,47.41,42.959999999999994
+25392|Portsmouth South,25392,Portsmouth South,Flick Drummond,4459,2017-02-11,2017-05-03,Conservative,Conservative,England,50118509705,Flick Drummond,2031,12.510000000000002,3.490000000000002,11.310000000000002
+25395|Boston and Skegness,25395,Boston and Skegness,Matt Warman,4361,2017-02-11,2020-10-28,Conservative,Conservative,England,160441317312259,Matt Warman MP,3865,10.009999999999998,38.650000000000006,61.449999999999996
+25397|Lewes,25397,Lewes,Maria Caulfield,4492,2017-02-11,2020-10-28,Conservative,Conservative,England,556389197810785,Maria Caulfield,4468,2.1400000000000006,10.160000000000004,4.480000000000004
+25398|Faversham and Mid Kent,25398,Faversham and Mid Kent,Helen Whately,4527,2017-02-11,2020-10-28,Conservative,Conservative,England,1578473739098537,Helen Whately MP,1621,36.35,35.010000000000005,43.61
+25399|South East Cambridgeshire,25399,South East Cambridgeshire,Lucy Frazer,4517,2017-02-11,2020-10-28,Conservative,Conservative,England,519513704828833,Lucy Frazer MP,2668,28.29,25.639999999999997,17.840000000000003
+"25401|Ayr, Carrick and Cumnock",25401,"Ayr, Carrick and Cumnock",Corri Wilson,4448,2017-02-11,2017-05-03,Scottish National Party,Scottish National Party,Scotland,1408188762812438,Corri Wilson for Cunninghame North,3146,21.58,6.0,5.0
+25403|Colchester,25403,Colchester,Will Quince,4423,2017-02-11,2020-10-28,Conservative,Conservative,England,386362281469092,Will Quince MP,4990,11.469999999999999,10.600000000000001,17.65
+25404|Edinburgh South West,25404,Edinburgh South West,Joanna Cherry,4419,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,815273991868910,Joanna Cherry MP,6534,15.77,2.219999999999999,22.980000000000004
+25405|Cheadle,25405,Cheadle,Mary Robinson,4406,2017-02-11,2020-10-28,Conservative,Conservative,England,326669294139989,Mary Robinson MP,2119,12.149999999999999,8.260000000000005,4.18
+25406|Glasgow North West,25406,Glasgow North West,Carol Monaghan,4443,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,602811439846056,Carol Monaghan MP,2921,23.640000000000004,6.590000000000003,21.030000000000005
+25407|Taunton Deane,25407,Taunton Deane,Rebecca Pow,4522,2017-02-11,2020-10-28,Conservative,Conservative,England,171326032914383,Rebecca Pow,1758,26.759999999999998,25.199999999999996,18.35
+25408|Bury St Edmunds,25408,Bury St Edmunds,Jo Churchill,4380,2017-02-11,2020-10-28,Conservative,Conservative,England,1518690448393113,Jo Churchill,923,35.89,29.659999999999997,40.33
+25409|Livingston,25409,Livingston,Hannah Bardell,4486,2017-02-11,2020-10-28,Scottish National Party,Scottish National Party,Scotland,615938318532772,Hannah Bardell MP,4936,29.27,7.380000000000003,24.610000000000003
+25410|St Austell and Newquay,25410,St Austell and Newquay,Steve Double,4452,2017-02-11,2020-10-28,Conservative,Conservative,England,720477027977910,Steve Double MP,5830,16.23,20.55,29.63
+25411|City of Chester,25411,City of Chester,Chris Matheson,4408,2017-02-11,2020-10-28,Labour,Labour,England,219383758255333,Chris Matheson,5237,0.17999999999999972,16.269999999999996,11.299999999999997
+25412|North Devon,25412,North Devon,Peter Heaton-Jones,4524,2017-02-11,2019-11-06,Conservative,Conservative,England,536874599733362,Peter Heaton-Jones,1308,13.260000000000002,7.780000000000001,26.650000000000002
+25413|South Leicestershire,25413,South Leicestershire,Alberto Costa,4439,2017-02-11,2020-10-28,Conservative,Conservative,England,606105072869448,Alberto Costa MP,5256,29.810000000000002,32.870000000000005,41.769999999999996
+25414|South Suffolk,25414,South Suffolk,James Cartlidge,4519,2017-02-11,2020-10-28,Conservative,Conservative,England,854515534566090,James Cartlidge MP,1025,33.8,32.730000000000004,42.81
+"25416|Berwickshire, Roxburgh and Selkirk",25416,"Berwickshire, Roxburgh and Selkirk",Calum Kerr,4379,2017-02-11,2017-05-03,Scottish National Party,Scottish National Party,Scotland,1614563518763506,Calum Kerr SNP,5078,0.5900000000000034,21.120000000000005,9.690000000000005
+25418|Hove,25418,Hove,Peter Kyle,4505,2017-02-11,2020-10-28,Labour,Labour,England,179475262226184,Peter Kyle MP,12284,2.3699999999999974,32.57,30.22
+25419|North East Hampshire,25419,North East Hampshire,Ranil Jayawardena,4498,2017-02-11,2020-10-28,Conservative,Conservative,England,44181675160,Ranil Jayawardena MP,12449,55.39999999999999,48.190000000000005,34.1
+25420|Banbury,25420,Banbury,Victoria Prentis,4401,2017-02-11,2020-10-28,Conservative,Conservative,England,728733757210856,Victoria Prentis,928,31.709999999999997,20.139999999999993,26.720000000000002
+25422|Mid Dorset and North Poole,25422,Mid Dorset and North Poole,Michael Tomlinson,4497,2017-02-11,2020-10-28,Conservative,Conservative,England,487503497999789,Michael Tomlinson MP,1099,22.650000000000002,31.790000000000003,30.45
+25423|St Helens North,25423,St Helens North,Conor McGinn,4458,2017-02-11,2020-10-28,Labour,Labour,England,1455126988133876,Conor McGinn MP,2414,37.38,36.650000000000006,25.669999999999998
+25426|Bexhill and Battle,25426,Bexhill and Battle,Huw Merriman,4442,2017-02-11,2020-10-28,Conservative,Conservative,England,324862291035860,Huw Merriman MP,3448,36.35,37.269999999999996,44.099999999999994
+25427|North Dorset,25427,North Dorset,Simon Hoare,4494,2017-02-11,2020-10-28,Conservative,Conservative,England,1541780879433318,Simon Hoare MP,667,39.56,46.26,43.31
+25428|Richmond (Yorks),25428,Richmond (Yorks),Rishi Sunak,4483,2017-02-11,2020-10-28,Conservative,Conservative,England,1540198936249794,Rishi Sunak,66044,36.21,40.53,47.160000000000004
+25429|Ashton-under-Lyne,25429,Ashton-under-Lyne,Angela Rayner,4356,2017-02-11,2020-10-28,Labour,Labour,England,829501913748298,Angela Rayner,47583,27.639999999999997,28.4,11.049999999999997
+25430|Rochester and Strood,25430,Rochester and Strood,Kelly Tolhurst,4487,2017-02-11,2020-10-28,Conservative,Conservative,England,992768107415537,Kelly Tolhurst,4205,13.59,18.32,32.88
+25431|Morley and Outwood,25431,Morley and Outwood,Andrea Jenkyns,4490,2017-02-11,2020-10-28,Conservative,Conservative,England,445142002188801,Andrea Jenkyns,6594,0.8699999999999974,4.020000000000003,21.699999999999996
+25432|Lancaster and Fleetwood,25432,Lancaster and Fleetwood,Cat Smith,4436,2017-02-11,2020-10-28,Labour,Labour,England,110514118971174,Cat Smith MP,11790,3.030000000000001,14.480000000000004,5.270000000000003
+25433|York Central,25433,York Central,Rachael Maskell,4471,2017-02-11,2020-10-28,Labour/Co-operative,Labour/Co-operative,England,754655137964859,Rachael Maskell MP,6773,14.080000000000002,34.989999999999995,27.360000000000003
+25436|Derby North,25436,Derby North,Amanda Solloway,4372,2017-02-11,2020-10-28,Conservative,Conservative,England,120624774790466,Amanda Solloway MP,3620,0.09999999999999432,4.140000000000001,5.409999999999997
+25437|South Thanet,25437,South Thanet,Craig Mackinlay,4529,2017-02-11,2020-10-28,Conservative,Conservative,England,272290589544524,Craig Mackinlay,2627,5.690000000000005,12.830000000000005,21.93
+25438|Wells,25438,Wells,James Heappey,4528,2017-02-11,2020-10-28,Conservative,Conservative,England,273709532781140,James Heappey,2481,13.330000000000005,12.46,16.229999999999997
+25440|St Ives,25440,St Ives,Derek Thomas,4532,2017-02-11,2020-10-28,Conservative,Conservative,England,205032482983580,Derek Thomas,3053,5.1100000000000065,0.6099999999999994,8.340000000000003
+25531|Moray,25531,Moray,Douglas Ross,4627,2017-06-09,2020-10-28,Conservative,Conservative,Scotland,704059696360608,Douglas Ross MP,4902,18.389999999999997,8.729999999999997,1.0499999999999972
+25600|Copeland,25600,Copeland,Trudy Harrison,4593,2017-02-24,2020-10-28,Conservative,Conservative,England,1163262443793280,Trudy Harrison,4132,6.460000000000001,3.940000000000005,13.740000000000002
+25601|Stoke-on-Trent Central,25601,Stoke-on-Trent Central,Gareth Snell,4595,2017-02-24,2019-11-06,Labour,Labour/Co-operative,England,1839868602960559,Gareth Snell,2608,16.660000000000004,11.759999999999998,2.0900000000000034
+25629|South Antrim,25629,South Antrim,Paul Girvan,4633,2017-06-09,2020-10-28,DUP,DUP,Northern Ireland,782447081914612,Paul Girvan MP,3051,2.6000000000000014,7.430000000000003,6.260000000000002
+25651|East Lothian,25651,East Lothian,Martin Whitfield,4626,2017-06-09,2019-11-06,Labour,Labour,Scotland,273762566417823,Martin Whitfield,2035,11.529999999999998,5.52,6.649999999999995
+25656|Canterbury,25656,Canterbury,Rosie Duffield,4616,2017-06-09,2020-10-28,Labour,Labour,England,333209063761130,Rosie Duffield MP,6567,18.33,0.3300000000000054,3.0500000000000043
+"25666|Birmingham, Edgbaston",25666,"Birmingham, Edgbaston",Preet Kaur Gill,4603,2017-06-09,2020-10-28,Labour/Co-operative,Labour/Co-operative,England,886799568032272,Preet Kaur Gill,9347,6.560000000000002,15.869999999999997,13.270000000000003
