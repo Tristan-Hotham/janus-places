@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Two faces of the constituency | What MPs name on Facebook and in the Commons</title>
+<meta name="description" content="For the same MPs, months and places, how often do Facebook posts and Commons speeches name the towns and villages in the MP's own seat? 358 MP-seat spells, February 2017 to October 2020.">
+<meta property="og:title" content="Two faces of the constituency">
+<meta property="og:description" content="MPs named their own seat's places 42 times per 100 Facebook posts and 9 times per 100 Commons contributions.">
+<meta property="og:image" content="https://maps.tristanhotham.com/janus-places/header.png">
+<meta property="og:url" content="https://maps.tristanhotham.com/janus-places/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+:root{--bg:#F6EED8;--panel:#EFE3C4;--fg:#2B2119;--muted:#6E604E;--rule:#E2D3AE;--card:#FBF5E4;--border:#D3C29A;--hot:#B4442E;--cool:#2F6A9E;
+  --display:"Fraunces",Georgia,serif;--body:"Source Serif 4",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1A1612;--panel:#241E18;--fg:#EFE6D4;--muted:#ADA08B;--rule:#3A3128;--card:#211B15;--border:#4D4234;--hot:#E07A6C;--cool:#8FB4DA;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1A1612;--panel:#241E18;--fg:#EFE6D4;--muted:#ADA08B;--rule:#3A3128;--card:#211B15;--border:#4D4234;--hot:#E07A6C;--cool:#8FB4DA;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:720px;margin:0 auto;padding-block:28px 64px}
+a{color:inherit;text-decoration-color:var(--hot);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--hot);color:#fff;padding:5px 8px;font-weight:500}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:54px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--hot);display:block;letter-spacing:.1em;margin-bottom:10px}
+p{margin:0 0 16px}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+ul.plain{padding-left:20px} ul.plain li{margin:4px 0}
+details{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:10px 0;margin:18px 0;font-size:16px}
+summary{font:500 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;color:var(--muted)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--hot);border-color:var(--hot);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:4px 8px;cursor:pointer;min-height:28px}
+.figure{margin:22px 0}.figure img{width:100%;display:block;border:1px solid var(--border);background:#F6EED8}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:22px 0}
+.stat b{display:block;font:900 40px/1 var(--display);color:var(--hot)}
+.stat span{font:400 13px/1.35 var(--mono);color:var(--muted)}
+table.t{width:100%;border-collapse:collapse;font:400 13.5px/1.4 var(--mono);margin:12px 0 4px}
+table.t th{text-align:left;font-weight:500;border-bottom:2px solid var(--fg);padding:5px 6px 5px 0}
+table.t td{border-bottom:1px solid var(--rule);padding:5px 6px 5px 0;vertical-align:top}
+table.t td.r,table.t th.r{text-align:right}
+.tscroll{overflow-x:auto}
+.topbar{height:40px;display:flex;align-items:center;gap:14px;margin:0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding:0 max(14px,env(safe-area-inset-left,0px));border-bottom:3px double var(--fg);background:var(--bg);overflow:hidden;white-space:nowrap}
+.tb-name{font:800 18px/1 var(--display);color:var(--hot);text-decoration:none}
+.tb-k{font:500 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tb-links{margin-left:auto;display:flex;gap:16px;align-items:center;font:500 12px/1 var(--mono)}
+.tb-links a{text-decoration:none}
+.mapband{width:100vw;margin-left:calc(50% - 50vw)}
+.pane{position:relative;height:calc(100vh - 43px);height:calc(100svh - 43px);min-height:480px;border-bottom:1px solid #BCA676;background:#EEF1F2;overflow:hidden}
+#map{position:absolute;inset:0}
+.cartouche{position:absolute;left:14px;top:14px;z-index:5;max-width:min(340px,calc(100% - 28px));background:rgba(251,243,220,.96);color:#2B2119;border:2px solid #2B2119;padding:10px 14px;box-shadow:0 3px 14px rgba(60,40,10,.22)}
+.cartouche h1{font:900 clamp(22px,2.3vw,30px)/1 var(--display);letter-spacing:-.015em;margin:6px 0 0;color:#2B2119}
+.cartouche h1 .a{color:#B4442E}
+.cartouche .dek{font-size:13.5px;line-height:1.36;margin:6px 0 0}
+.cartouche .byline{font-size:11px;color:#6E604E;margin-top:6px}.cartouche .kicker{color:#6E604E}
+.ct-fold{position:absolute;right:6px;top:5px;width:26px;height:26px;border:0;background:none;color:#B4442E;font:700 16px/1 var(--mono);cursor:pointer;padding:0}
+.ct-toggle{display:none;font:800 16px/1 var(--display);color:#B4442E;background:none;border:0;padding:2px 0;cursor:pointer;min-height:30px}
+.cartouche.folded .ct-body,.cartouche.folded .ct-fold{display:none}.cartouche.folded .ct-toggle{display:block}.cartouche.folded{padding:4px 11px}
+.ov-top{position:absolute;z-index:6;right:54px;top:10px;max-width:calc(100% - 480px);display:flex;flex-direction:column;gap:6px;align-items:flex-end;pointer-events:none;font:400 13px/1.3 var(--mono);color:#2B2119}
+.ov-top>*{pointer-events:auto}
+.srch{position:relative;width:min(340px,100%)}
+.srch input{width:100%;font:400 15px/1 var(--mono);background:rgba(251,245,228,.97);color:#2B2119;border:1px solid #9C8656;border-radius:3px;padding:9px 10px;min-height:40px}
+.sug{position:absolute;left:0;right:0;top:100%;margin:2px 0 0;padding:0;list-style:none;background:#FBF5E4;border:1px solid #9C8656;max-height:300px;overflow:auto;display:none;z-index:12}
+.sug li{padding:8px 10px;cursor:pointer;border-bottom:1px solid #E7D9B6}.sug li span{color:#7A6A52;font-size:12px}
+.sug li[aria-selected="true"],.sug li:hover{background:#EFE1BC}
+.chips{display:flex;gap:6px;overflow-x:auto;max-width:100%;scrollbar-width:none;padding-bottom:2px}.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;font:500 12px/1 var(--mono);background:rgba(251,245,228,.95);color:#2B2119;border:1px solid #9C8656;border-radius:999px;padding:8px 11px;cursor:pointer;min-height:34px;white-space:nowrap}
+.chip[aria-pressed="true"]{background:#B4442E;color:#fff;border-color:#2B2119}
+.chip.lyr{background:#2B2119;color:#F6EED8;border-color:#2B2119}
+.lp{position:absolute;right:54px;top:60px;z-index:9;background:rgba(251,245,228,.98);border:1px solid #9C8656;border-radius:4px;padding:10px 12px 8px;font:400 13px/1.3 var(--mono);color:#2B2119;box-shadow:0 3px 12px rgba(60,40,10,.25);display:none;min-width:250px}
+.lp.open{display:block}.lp h4{margin:0 0 6px;font:500 11px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#7A6A52}
+.lp label{display:flex;gap:8px;align-items:center;padding:5px 0;cursor:pointer;min-height:30px}.lp input{accent-color:#B4442E;width:16px;height:16px;flex:none}
+.keys{position:absolute;left:12px;bottom:12px;z-index:4;background:rgba(251,243,220,.96);border:1px solid #9C8656;border-radius:3px;padding:8px 10px;font:400 11.5px/1.25 var(--mono);color:#2B2119;max-width:270px}
+.keys b{display:block;font:800 14px/1.1 var(--display);margin-bottom:5px}
+.keys .bar{height:10px;border:1px solid rgba(43,33,25,.4)}
+.keys .ends{display:flex;justify-content:space-between;font-size:10.5px;color:#6E604E;margin-top:2px}
+.keys .row{display:flex;align-items:center;gap:6px;margin-top:5px}.keys .dot{width:10px;height:10px;border-radius:50%;background:#B9B4AA;border:1px solid #fff;box-shadow:0 0 0 1px #888}
+.maplibregl-popup-content{background:#FBF5E4;color:#2B2119;font:400 13px/1.45 var(--mono);border:1px solid #9C8656;border-radius:4px;padding:10px 12px;max-width:320px;max-height:44vh;overflow:auto}
+.maplibregl-popup-content b.t{display:block;font:800 19px/1.15 var(--display);color:#B4442E;margin-bottom:3px;padding-right:14px}
+.maplibregl-popup-content table{border-collapse:collapse;margin:5px 0}.maplibregl-popup-content td{padding:1px 8px 1px 0;vertical-align:top}
+.maplibregl-popup-content td:first-child{color:#7A6A52}.maplibregl-popup-content .nt{color:#7A6A52;font-size:11.5px;margin:5px 0 0}
+.maplibregl-popup-content a{color:#B4442E}
+.maplibregl-ctrl-attrib{font:400 11px/1.3 var(--mono)!important}
+.nojs{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:400 14px var(--mono);color:#6E604E;padding:20px;text-align:center}
+@media (max-width:1000px){.ov-top{left:10px;right:54px;max-width:none;align-items:flex-start}.lp{left:10px;right:auto;top:100px}.cartouche{top:100px}}
+@media (max-width:600px){.tb-k,.tb-links a.x{display:none}.topbar{gap:10px}.tb-name{font-size:15px}.tb-links{gap:10px}
+  .lp{left:8px;right:8px;min-width:0}.ov-top{left:8px;top:8px}.cartouche{left:8px;top:100px;max-width:calc(100% - 16px)}.cartouche h1{font-size:23px}
+  .ct-toggle{display:block}.ct-fold{display:none}.keys{max-width:200px;font-size:10.5px;padding:6px 8px}.chip{padding:8px 8px;font-size:11.5px}.keys .kx{display:none}.chips{flex-wrap:wrap}.cartouche{top:150px}}
+.maplibregl-popup{z-index:7}
+.tl{position:absolute;left:12px;right:60px;bottom:12px;z-index:5;display:flex;align-items:center;gap:10px;background:rgba(251,243,220,.96);border:1px solid #9C8656;border-radius:3px;padding:6px 10px;font:400 12px/1.2 var(--mono);color:#2B2119;max-width:560px}
+.tl input[type=range]{flex:1;accent-color:#B4442E;min-width:80px}
+.tl b{font:800 15px/1 var(--display);min-width:92px;text-align:center}
+.tl button{font:500 12px/1 var(--mono);background:#2B2119;color:#F6EED8;border:0;border-radius:3px;padding:7px 9px;cursor:pointer;min-height:30px}
+.keys{bottom:64px}
+.spark{display:block;margin:6px 0 2px}
+.maplibregl-popup-content .pl{border-top:1px solid #E2D3AE;margin-top:6px;padding-top:6px}
+@media (max-width:600px){.tl{left:8px;right:52px;bottom:8px;gap:6px;padding:5px 7px}.tl b{min-width:70px;font-size:13px}.keys{bottom:56px}}
+
+</style></head>
+<body>
+<div class="topbar">
+  <a class="tb-name" href="#mapWrap">Two faces of the constituency</a>
+  <span class="tb-k">Data study · 2026</span>
+  <nav class="tb-links"><a href="#essay">About</a><button class="theme" id="theme" aria-label="Toggle dark mode">◐</button><a href="https://doi.org/10.5281/zenodo.24105795">Paper</a><a class="x" href="https://github.com/Tristan-Hotham/janus-places">Data and code</a></nav>
+</div>
+<div class="mapband">
+  <div class="pane" id="mapWrap" data-fullscreen-map role="application" aria-label="Map of UK constituencies coloured by how much more often the MP named the seat's places on Facebook than in the Commons">
+    <div id="map"></div>
+    <div class="nojs" id="nojs">Loading the map. It needs JavaScript and WebGL.</div>
+    <div class="cartouche" id="cartouche">
+      <button class="ct-toggle" id="ctToggle" aria-expanded="true">Two faces of the constituency ▾</button>
+      <button class="ct-fold" id="ctFold" title="Fold the title" aria-label="Fold the title">▴</button>
+      <div class="ct-body">
+        <div class="kicker"><b>Data study</b><span>2026</span></div>
+        <h1>Two faces of <span class="a">the constituency</span></h1>
+        <p class="dek">How often each MP named the places in their own seat: per 100 Facebook posts, and per 100 spoken contributions in the House of Commons, February 2017 to October 2020. 350 seats have an MP with a page in the list. Tap a seat for its places in both venues.</p>
+        <div class="byline">Dr Tristan Hotham · Independent researcher · 2026</div>
+      </div>
+    </div>
+    <div class="ov-top">
+      <div class="srch"><input type="search" id="q" placeholder="Find a seat, MP or place" aria-label="Find a seat, MP or place" autocomplete="off"><ul class="sug" id="sug" role="listbox"></ul></div>
+      <div class="chips"><button class="chip" data-m="g" aria-pressed="true">Gap</button><button class="chip" data-m="f" aria-pressed="false">Facebook</button><button class="chip" data-m="c" aria-pressed="false">Commons</button><button class="chip lyr" id="lyrBtn" aria-expanded="false" aria-controls="lp">Layers</button></div>
+    </div>
+    <div class="lp" id="lp" role="dialog" aria-label="Map layers">
+      <h4>Layers</h4>
+      <label><input type="checkbox" id="lyS" checked> Seats with a matched MP (coloured)</label>
+      <label><input type="checkbox" id="lyN" checked> Seats with no MP page in the list (hatched)</label>
+      <label><input type="checkbox" id="lyO" checked> Seat outlines</label>
+      <label><input type="checkbox" id="lyL" checked> Base map labels</label>
+    </div>
+    <div class="keys" id="keys"><b id="keyTitle">Facebook minus Commons</b><div class="bar" id="keyBar"></div><div class="ends" id="keyEnds"><span>-20</span><span>0</span><span>+60</span></div>
+      <div class="row kx" style="color:#6E604E" id="keySub">own-seat place mentions per 100 items</div><div class="row"><span style="display:inline-block;width:18px;height:11px;border:1px solid #B9AE96;background:repeating-linear-gradient(135deg,#fff 0 3px,#B9AE96 3px 4px)"></span>hatched: no MP page in the list</div><div class="row kx" style="color:#6E604E">2010 seats; GB and Northern Ireland</div></div>
+  </div>
+</div>
+<div class="wrap" id="essay">
+<p style="margin-top:6px">An MP speaks to two audiences. In the House of Commons, the audience is other MPs, ministers and the official record. On the MP's own Facebook page, it is constituents. I wanted to know whether MPs show their constituency more in one of these than the other, so I counted how often each MP named the towns and villages in their own seat in both places: the same MP, the same months and the same list of places.</p>
+<div class="byline">Dr Tristan Hotham · Independent researcher · 2026 · Data: the author's CrowdTangle list of MPs' Facebook pages (counts only), Hansard via the UK Parliament API (Open Parliament Licence v3.0), Wikidata (CC0) · Base map: OpenFreeMap Positron</div>
+<div class="stats">
+<div class="stat"><b>42</b><span>mentions of own-seat places per 100 Facebook posts</span></div>
+<div class="stat"><b>9</b><span>per 100 spoken contributions in the Commons</span></div>
+<div class="stat"><b>4.4x</b><span>Facebook against the Commons, same MP and month</span></div>
+<div class="stat"><b>315/331</b><span>MPs who named their places more often on Facebook</span></div>
+</div>
+
+<h2><span class="n">01 · The local face</span>Four times as local</h2>
+<p>I matched 363 Facebook pages in a list I built during my PhD to the MPs who ran them, and for each MP I wrote down a list of places in their seat before looking at any Commons data: the towns in the seat's name, its eight biggest other places and a random sample of the rest. Then I counted how often each MP's posts and each MP's spoken contributions in the Commons named those places. For every 100 Facebook posts, MPs named a place in their own seat 42 times. For every 100 things they said in the chamber, 9 times. Comparing each MP with themselves in the same months, the Facebook rate is 4.4 times the Commons rate (95% interval 3.8 to 5.1), and 315 of the 331 MPs with at least 20 posts and 20 contributions named their patch more often on Facebook.</p>
+<div class="figure"><img src="img/scatter.jpg" alt="Scatter chart of 331 MPs: Commons rate on the horizontal axis, mostly under 20 per 100 contributions, and Facebook rate on the vertical axis, mostly between 20 and 75 per 100 posts; almost every dot sits above the line of equal rates" loading="lazy"><p class="src">Each dot is an MP. Above the dashed line: more local on Facebook.</p></div>
+<p>The data have a hard edge. CrowdTangle exports stop at 300,000 rows, and this one stopped there, so the posts start on 11 February 2017. Everything here covers February 2017 to October 2020: two general elections, the Brexit votes of 2019 and the first months of COVID.</p>
+<div class="figure"><img src="img/monthly.jpg" alt="Line chart by month from 2017 to 2020: the Facebook line runs between about 27 and 68 mentions per 100 posts, the Commons line between about 5 and 21 per 100 contributions, with a dip on Facebook in spring 2020" loading="lazy"><p class="src">All MPs together, month by month.</p></div>
+
+<h2><span class="n">02 · Which places</span>Louder, not different</h2>
+<p>I expected Facebook to reach further down the map, to the villages and estates that rarely come up in a debate. It doesn't, at least not in the way I tested. Both venues name bigger places much more than small ones, and at much the same rate. Facebook names places of every size about four times as often (between 3.7 and 4.9 times, by size band). That holds for the towns in the seat's name (24 against 6 per 100 items) and for everywhere else (19 against 3). The page is a louder version of the same map.</p>
+<div class="figure"><img src="img/size.jpg" alt="Bar chart by population band: Facebook and Commons mentions both rise steeply with population, with Facebook higher in every band" loading="lazy"><p class="src">Mentions of one place per 1,000 items, by the size of the place.</p></div>
+<p>There is a check built in. Each MP's list also had two places in someone else's seat. If Facebook simply named more places of any kind, those would show the same gap. They don't: they turn up about 0.02 times per 100 posts and 0.03 times per 100 contributions, a ratio of 1.04.</p>
+<div class="figure"><img src="img/groups.jpg" alt="Bar chart of mentions per 100 items: places in the seat's name 23.8 on Facebook and 5.7 in the Commons; most populous other places 12.9 and 2.2; a random sample of places 5.7 and 1.0; places in another seat close to zero in both" loading="lazy"><p class="src">The same places, counted the same way, in both venues.</p></div>
+
+<h2><span class="n">03 · Office</span>The Commons face changes with the job</h2>
+<p>A third pattern is about office. In the months an MP held a frontbench post (a minister, a shadow minister or a party leader), their Commons contributions named their own seat's places 77% less often than in that same MP's other months. Their Facebook rate didn't change (a ratio of 1.00). In frontbench months the Westminster face names home less; the home face does not. I had expected the gap to shrink for frontbenchers. It grew.</p>
+<p>Two other results also went against what I wrote down beforehand. MPs in marginal seats, with majorities under ten points, had a smaller gap, not a bigger one (33% smaller): if anything, they were more local in the chamber. And in spring 2020, as COVID arrived, Facebook pages named local places 27% less often than usual for a few months before recovering. The Brexit votes of 2019 made no clear difference in either venue.</p>
+<div class="figure"><img src="img/who.jpg" alt="Dot and whisker chart: frontbench months cut the Commons rate to about a quarter but leave Facebook unchanged; COVID months lower the Facebook rate; the gap is smaller in marginal seats and larger for frontbench months and the government side" loading="lazy"><p class="src">Ratios with 95% intervals, comparing each MP with themselves.</p></div>
+
+<h2><span class="n">04 · Checks</span>Fifteen ways, one answer</h2>
+<p>I ran the comparison 15 other ways: counting link titles and image text as well as the MP's own words, dropping ambiguous names like Bath or Sale, leaving out the seat's own name, using only the biggest places or only the random sample, counting by quarter, leaving out each nation in turn, dropping the ten biggest pages, dropping Deputy Speakers, and a different statistical model. The ratio stayed between 3.1 and 6.1 every time.</p>
+<div class="figure"><img src="img/robust.jpg" alt="Forest plot of 15 checks, all between 3.1 and 6.1, with the placebo at about 1" loading="lazy"><p class="src">Every check, and the placebo.</p></div>
+
+<h2><span class="n">05 · How I did this</span>Places, pages and the record</h2>
+<p><b>Facebook.</b> The pages come from a CrowdTangle list of MPs' pages that I built for my PhD and exported in 2020. I chose which pages to follow, so this is not every MP: 350 of the 650 seats have a matched MP. A post counts only if the MP held the seat on the day it was made. I used only whether each post's own text named each place. No post text, link or address is stored or shared, only counts per MP, month and place.</p>
+<p><b>The Commons.</b> For each MP and each place, the UK Parliament's Hansard search gave the number of that MP's spoken contributions per month containing the place name, and the number of all their contributions. A contribution can be a long speech or a one-line question; a post can be a sentence and a photo. So this is a rate per item, not per word.</p>
+<p><b>Places.</b> Each 2010 constituency got a list of places from Wikidata's UK settlements, an earlier study of mine and the seat's own name. Names that are also ordinary words or that belong to a bigger place elsewhere were searched as "in" plus the name in both venues. I wrote the full analysis plan before the Commons counts arrived, and everything added later is labelled as such in the paper.</p>
+<p><b>What this cannot say.</b> It counts names, not meaning: a post can name a town to praise it or to complain. The pages are the ones I followed, which over-represent active MPs. And it shows where MPs name their places, not why.</p>
+<details><summary>Sources and licences</summary>
+<ul class="plain">
+<li>Facebook page data: the author's CrowdTangle list of UK MPs' pages (CrowdTangle, Meta), exported October 2020. Only aggregate counts are published.</li>
+<li>Hansard, House of Commons: monthly counts of spoken contributions by member and phrase from the UK Parliament Hansard API. Contains Parliamentary information licensed under the Open Parliament Licence v3.0.</li>
+<li>MPs, seats, parties and posts: mySociety parlparse (records of the House of Commons, Open Parliament Licence v3.0). Election majorities from <i>Who Won Here?</i> (Hotham 2026, doi:10.5281/zenodo.23761425).</li>
+<li>Places: Wikidata (CC0) and <i>Mentioned in the House</i> (Hotham 2026, doi:10.5281/zenodo.23761431). Northern Ireland seat boundaries from martinjc/UK-GeoJSON (Open Government Licence v3.0).</li>
+<li>Base map: OpenFreeMap Positron style (OpenStreetMap, ODbL). MapLibre GL JS 4.7.1 (BSD 3-Clause).</li>
+<li>Text, figures and data CC BY 4.0; code MIT.</li>
+</ul></details>
+<div class="cta"><a class="p" href="https://doi.org/10.5281/zenodo.24105795">Read the paper</a><a href="https://github.com/Tristan-Hotham/janus-places">Data and code</a><a href="https://blog.tristanhotham.com/2026/10/31/janus-places/">Blog post</a></div>
+<footer>
+<p>Dr Tristan Hotham, Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+<p>Cite as: Hotham, T. (2026) Two faces of the constituency: how often British MPs name the places they represent on Facebook and in the House of Commons, 2017 to 2020. Zenodo. <a href="https://doi.org/10.5281/zenodo.24105795">10.5281/zenodo.24105795</a></p>
+<p>Code: <a href="https://github.com/Tristan-Hotham/janus-places">github.com/Tristan-Hotham/janus-places</a> (MIT). Text, figures and data CC BY 4.0.</p>
+<p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="js/page.js?v=2026a"></script>
+<!-- map-fullscreen v1 -->
+<style id="mfs-style">
+.mfs-btn{position:absolute;top:10px;right:10px;z-index:1001;width:34px;height:34px;border:2px solid rgba(0,0,0,.25);border-radius:4px;background:#fff;color:#222;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.mfs-btn:hover{background:#f2f2f2}
+.mfs-btn svg{width:18px;height:18px}
+.mfs-host.mfs-btn-left .mfs-btn{right:auto;left:54px}
+.mfs-fake{position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;height:100dvh!important;max-width:none!important;max-height:none!important;margin:0!important;z-index:100000!important;border-radius:0!important}
+html.mfs-lock,html.mfs-lock body{overflow:hidden!important}
+:fullscreen.mfs-host{width:100vw!important;height:100vh!important;max-width:none!important;max-height:none!important;margin:0!important;border-radius:0!important}
+</style>
+<script id="mfs-script">
+(function(){
+  var ICON_OPEN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>';
+  var ICON_CLOSE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>';
+  function poke(){setTimeout(function(){window.dispatchEvent(new Event('resize'));},60);setTimeout(function(){window.dispatchEvent(new Event('resize'));},400);}
+  function realFS(){return document.fullscreenElement||document.webkitFullscreenElement;}
+  function add(el){
+    if(el.__mfs)return; el.__mfs=1;
+    var cs=getComputedStyle(el); if(cs.position==='static')el.style.position='relative';
+    el.classList.add('mfs-host');
+    // avoid clashing with a top-right Leaflet control (e.g. "Map layers")
+    var tr=el.querySelector('.leaflet-top.leaflet-right');
+    if(tr&&tr.children.length){ el.classList.add('mfs-btn-left'); }
+    var b=document.createElement('button'); b.type='button'; b.className='mfs-btn';
+    b.title='Full screen map'; b.setAttribute('aria-label','Full screen map'); b.innerHTML=ICON_OPEN;
+    ['click','dblclick','mousedown','touchstart','wheel'].forEach(function(t){b.addEventListener(t,function(e){e.stopPropagation();},{passive:t!=='click'});});
+    function setIcon(on){b.innerHTML=on?ICON_CLOSE:ICON_OPEN;b.title=on?'Exit full screen':'Full screen map';b.setAttribute('aria-label',b.title);}
+    function exitFake(){el.classList.remove('mfs-fake');document.documentElement.classList.remove('mfs-lock');setIcon(false);poke();}
+    b.addEventListener('click',function(e){
+      e.preventDefault();
+      if(el.classList.contains('mfs-fake')){exitFake();return;}
+      if(realFS()){(document.exitFullscreen||document.webkitExitFullscreen).call(document);return;}
+      var req=el.requestFullscreen||el.webkitRequestFullscreen;
+      if(req){ try{ var p=req.call(el); if(p&&p.catch)p.catch(function(){el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke();}); }catch(err){el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke();} }
+      else { el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke(); }
+    });
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&el.classList.contains('mfs-fake'))exitFake();});
+    ['fullscreenchange','webkitfullscreenchange'].forEach(function(t){document.addEventListener(t,function(){setIcon(realFS()===el);poke();});});
+    el.appendChild(b);
+  }
+  function scan(){
+    var els=document.querySelectorAll('[data-fullscreen-map], .leaflet-container, .maplibregl-map, .mapboxgl-map');
+    els.forEach(function(el){
+      if(el.closest('.mfs-host')&&!el.classList.contains('mfs-host'))return;
+      var r=el.getBoundingClientRect(); if(r.width<200||r.height<150)return;
+      add(el);
+    });
+  }
+  function start(){scan(); var n=0; var t=setInterval(function(){scan(); if(++n>20)clearInterval(t);},500);}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start); else start();
+})();
+</script>
+<!-- /map-fullscreen -->
+
+<script src="https://maps.tristanhotham.com/assets/site-nav.js" defer></script>
+</body>
+</html>
